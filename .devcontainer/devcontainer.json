@@ -1,0 +1,8 @@
+{
+  "name": "ros-urg-rviz",
+  "image": "ros-urg-rviz-kn01",
+  "workspaceFolder": "/",
+  "extensions": [],
+  "forwardPorts": [],
+  "postCreateCommand": "source /opt/ros/humble/setup.sh",
+}
