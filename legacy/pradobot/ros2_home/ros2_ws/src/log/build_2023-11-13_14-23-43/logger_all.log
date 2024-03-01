@@ -1,0 +1,303 @@
+[0.634s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.634s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff888b7e50>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff888b7e50>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff887f86a0>)
+[0.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.729s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.730s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.730s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros2_ws/src'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.730s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.731s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.761s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'colcon_meta'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extensions ['ros']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'ros'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extensions ['cmake', 'python']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'cmake'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'python'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extensions ['python_setup_py']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_controller) by extension 'python_setup_py'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extension 'colcon_pkg'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extensions ['colcon_meta']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extension 'colcon_meta'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extensions ['ros']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(pradobot_ultrasonic) by extension 'ros'
+[0.770s] DEBUG:colcon.colcon_core.package_identification:Package 'pradobot_ultrasonic' with type 'ros.ament_python' and name 'pradobot_ultrasonic'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'cmake'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'python'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extensions ['python_setup_py']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav) by extension 'python_setup_py'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/build) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/build) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/build) ignored
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/install) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/install) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/install) ignored
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/log) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/log) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/log) ignored
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav) by extension 'ros'
+[0.776s] DEBUG:colcon.colcon_core.package_identification:Package 'vectornav/vectornav' with type 'ros.ament_cmake' and name 'vectornav'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extension 'ignore'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extension 'ignore_ament_install'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extensions ['colcon_pkg']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extension 'colcon_pkg'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extensions ['colcon_meta']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extension 'colcon_meta'
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extensions ['ros']
+[0.777s] Level 1:colcon.colcon_core.package_identification:_identify(vectornav/vectornav_msgs) by extension 'ros'
+[0.778s] DEBUG:colcon.colcon_core.package_identification:Package 'vectornav/vectornav_msgs' with type 'ros.ament_cmake' and name 'vectornav_msgs'
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.779s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'cmake_target' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'cmake_clean_first' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'cmake_force_configure' from command line to 'False'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'ament_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.837s] Level 5:colcon.colcon_core.verb:set package 'pradobot_ultrasonic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.837s] DEBUG:colcon.colcon_core.verb:Building package 'pradobot_ultrasonic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/src/build/pradobot_ultrasonic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/src/install/pradobot_ultrasonic', 'merge_install': False, 'path': '/home/ros2_ws/src/pradobot_ultrasonic', 'symlink_install': False, 'test_result_base': None}
+[0.840s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_target' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.841s] Level 5:colcon.colcon_core.verb:set package 'vectornav_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.841s] DEBUG:colcon.colcon_core.verb:Building package 'vectornav_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/src/build/vectornav_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/src/install/vectornav_msgs', 'merge_install': False, 'path': '/home/ros2_ws/src/vectornav/vectornav_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_args' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_target' from command line to 'None'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_clean_first' from command line to 'False'
+[0.844s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'cmake_force_configure' from command line to 'False'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'ament_cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.845s] Level 5:colcon.colcon_core.verb:set package 'vectornav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.845s] DEBUG:colcon.colcon_core.verb:Building package 'vectornav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros2_ws/src/build/vectornav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros2_ws/src/install/vectornav', 'merge_install': False, 'path': '/home/ros2_ws/src/vectornav/vectornav', 'symlink_install': False, 'test_result_base': None}
+[0.847s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.860s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.861s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/src/vectornav/vectornav_msgs' with build type 'ament_cmake'
+[0.861s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/src/vectornav/vectornav_msgs'
+[0.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.872s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.872s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.898s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ros2_ws/src/pradobot_ultrasonic' with build type 'ament_python'
+[0.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('pradobot_ultrasonic', 'ament_prefix_path')
+[0.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/hook/ament_prefix_path.ps1'
+[0.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/hook/ament_prefix_path.dsv'
+[0.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/hook/ament_prefix_path.sh'
+[0.914s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/build/vectornav_msgs': /usr/local/bin/cmake /home/ros2_ws/src/vectornav/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/src/install/vectornav_msgs
+[1.392s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ros2_ws/src/pradobot_ultrasonic'
+[1.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/pradobot_ultrasonic': PYTHONPATH=/home/ros2_ws/src/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pradobot_ultrasonic build --build-base /home/ros2_ws/src/build/pradobot_ultrasonic/build install --record /home/ros2_ws/src/build/pradobot_ultrasonic/install.log --single-version-externally-managed
+[4.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/pradobot_ultrasonic' returned '0': PYTHONPATH=/home/ros2_ws/src/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/pradobot_ultrasonic build --build-base /home/ros2_ws/src/build/pradobot_ultrasonic/build install --record /home/ros2_ws/src/build/pradobot_ultrasonic/install.log --single-version-externally-managed
+[4.096s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic' for CMake module files
+[4.097s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic' for CMake config files
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic/lib'
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic/bin'
+[4.099s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic/lib/pkgconfig/pradobot_ultrasonic.pc'
+[4.100s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages'
+[4.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('pradobot_ultrasonic', 'pythonpath')
+[4.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/hook/pythonpath.ps1'
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/hook/pythonpath.dsv'
+[4.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/hook/pythonpath.sh'
+[4.108s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/pradobot_ultrasonic/bin'
+[4.109s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pradobot_ultrasonic)
+[4.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/package.ps1'
+[4.116s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/package.dsv'
+[4.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/package.sh'
+[4.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/package.bash'
+[4.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/pradobot_ultrasonic/share/pradobot_ultrasonic/package.zsh'
+[4.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/src/install/pradobot_ultrasonic/share/colcon-core/packages/pradobot_ultrasonic)
+[10.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/build/vectornav_msgs' returned '0': /usr/local/bin/cmake /home/ros2_ws/src/vectornav/vectornav_msgs -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/src/install/vectornav_msgs
+[10.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/build/vectornav_msgs': /usr/local/bin/cmake --build /home/ros2_ws/src/build/vectornav_msgs -- -j6 -l6
+[33.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/build/vectornav_msgs' returned '0': /usr/local/bin/cmake --build /home/ros2_ws/src/build/vectornav_msgs -- -j6 -l6
+[34.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/build/vectornav_msgs': /usr/local/bin/cmake --install /home/ros2_ws/src/build/vectornav_msgs
+[34.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav_msgs)
+[34.449s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs' for CMake module files
+[34.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/build/vectornav_msgs' returned '0': /usr/local/bin/cmake --install /home/ros2_ws/src/build/vectornav_msgs
+[34.453s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs' for CMake config files
+[34.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'cmake_prefix_path')
+[34.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.ps1'
+[34.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.dsv'
+[34.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.sh'
+[34.470s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/lib'
+[34.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'ld_library_path_lib')
+[34.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.ps1'
+[34.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.dsv'
+[34.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.sh'
+[34.480s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/bin'
+[34.481s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/lib/pkgconfig/vectornav_msgs.pc'
+[34.481s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages'
+[34.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'pythonpath')
+[34.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.ps1'
+[34.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.dsv'
+[34.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.sh'
+[34.490s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/bin'
+[34.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.ps1'
+[34.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.dsv'
+[34.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.sh'
+[34.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.bash'
+[34.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.zsh'
+[34.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/src/install/vectornav_msgs/share/colcon-core/packages/vectornav_msgs)
+[34.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav_msgs)
+[34.970s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs' for CMake module files
+[34.972s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs' for CMake config files
+[34.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'cmake_prefix_path')
+[34.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.ps1'
+[34.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.dsv'
+[34.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/cmake_prefix_path.sh'
+[34.984s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/lib'
+[34.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'ld_library_path_lib')
+[34.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.ps1'
+[34.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.dsv'
+[34.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/ld_library_path_lib.sh'
+[34.992s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/bin'
+[34.992s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/lib/pkgconfig/vectornav_msgs.pc'
+[34.993s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages'
+[34.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav_msgs', 'pythonpath')
+[34.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.ps1'
+[34.999s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.dsv'
+[35.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/hook/pythonpath.sh'
+[35.000s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav_msgs/bin'
+[35.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.ps1'
+[35.007s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.dsv'
+[35.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.sh'
+[35.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.bash'
+[35.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.zsh'
+[35.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/src/install/vectornav_msgs/share/colcon-core/packages/vectornav_msgs)
+[35.012s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros2_ws/src/vectornav/vectornav' with build type 'ament_cmake'
+[35.012s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros2_ws/src/vectornav/vectornav'
+[35.018s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[35.018s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[35.055s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/build/vectornav': AMENT_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/ros2_ws/src/vectornav/vectornav -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/src/install/vectornav
+[40.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/ros2_ws/src/vectornav/vectornav -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/src/install/vectornav
+[40.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/build/vectornav': AMENT_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/ros2_ws/src/build/vectornav -- -j6 -l6
+[106.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/ros2_ws/src/build/vectornav -- -j6 -l6
+[106.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros2_ws/src/build/vectornav': AMENT_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/ros2_ws/src/build/vectornav
+[106.862s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav)
+[106.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros2_ws/src/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/src/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/ros2_ws/src/build/vectornav
+[106.880s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav' for CMake module files
+[106.882s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav' for CMake config files
+[106.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'cmake_prefix_path')
+[106.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/cmake_prefix_path.ps1'
+[106.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/cmake_prefix_path.dsv'
+[106.896s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/cmake_prefix_path.sh'
+[106.898s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/lib'
+[106.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'ld_library_path_lib')
+[106.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/ld_library_path_lib.ps1'
+[106.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/ld_library_path_lib.dsv'
+[106.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/ld_library_path_lib.sh'
+[106.909s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/bin'
+[106.909s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/lib/pkgconfig/vectornav.pc'
+[106.910s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/lib/python3.8/site-packages'
+[106.910s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/bin'
+[106.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.ps1'
+[106.918s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/src/install/vectornav/share/vectornav/package.dsv'
+[106.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.sh'
+[106.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.bash'
+[106.920s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.zsh'
+[106.921s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/src/install/vectornav/share/colcon-core/packages/vectornav)
+[107.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vectornav)
+[107.037s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav' for CMake module files
+[107.038s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav' for CMake config files
+[107.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'cmake_prefix_path')
+[107.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/cmake_prefix_path.ps1'
+[107.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/cmake_prefix_path.dsv'
+[107.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/cmake_prefix_path.sh'
+[107.047s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/lib'
+[107.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('vectornav', 'ld_library_path_lib')
+[107.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/ld_library_path_lib.ps1'
+[107.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/ld_library_path_lib.dsv'
+[107.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros2_ws/src/install/vectornav/share/vectornav/hook/ld_library_path_lib.sh'
+[107.055s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/bin'
+[107.055s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/lib/pkgconfig/vectornav.pc'
+[107.055s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/lib/python3.8/site-packages'
+[107.056s] Level 1:colcon.colcon_core.environment:checking '/home/ros2_ws/src/install/vectornav/bin'
+[107.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.ps1'
+[107.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros2_ws/src/install/vectornav/share/vectornav/package.dsv'
+[107.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.sh'
+[107.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.bash'
+[107.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros2_ws/src/install/vectornav/share/vectornav/package.zsh'
+[107.066s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros2_ws/src/install/vectornav/share/colcon-core/packages/vectornav)
+[107.066s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[107.068s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[107.068s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[107.068s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[107.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[107.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[107.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[107.082s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[107.082s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[107.083s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[107.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/src/install/local_setup.ps1'
+[107.090s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2_ws/src/install/_local_setup_util_ps1.py'
+[107.092s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/src/install/setup.ps1'
+[107.095s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/src/install/local_setup.sh'
+[107.096s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros2_ws/src/install/_local_setup_util_sh.py'
+[107.097s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/src/install/setup.sh'
+[107.100s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/src/install/local_setup.bash'
+[107.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/src/install/setup.bash'
+[107.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros2_ws/src/install/local_setup.zsh'
+[107.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros2_ws/src/install/setup.zsh'

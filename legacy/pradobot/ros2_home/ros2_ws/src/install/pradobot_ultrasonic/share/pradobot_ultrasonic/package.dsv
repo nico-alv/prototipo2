@@ -1,0 +1,6 @@
+source;share/pradobot_ultrasonic/hook/pythonpath.ps1
+source;share/pradobot_ultrasonic/hook/pythonpath.dsv
+source;share/pradobot_ultrasonic/hook/pythonpath.sh
+source;share/pradobot_ultrasonic/hook/ament_prefix_path.ps1
+source;share/pradobot_ultrasonic/hook/ament_prefix_path.dsv
+source;share/pradobot_ultrasonic/hook/ament_prefix_path.sh

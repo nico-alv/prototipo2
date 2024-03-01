@@ -1,0 +1,40 @@
+[1.997s] Invoking command in '/home/ros2_ws/src/pradobot_ultrasonic': PYTHONPATH=/home/ros2_ws/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pradobot_ultrasonic build --build-base /home/ros2_ws/build/pradobot_ultrasonic/build install --record /home/ros2_ws/build/pradobot_ultrasonic/install.log --single-version-externally-managed
+[2.494s] running egg_info
+[2.531s] writing ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/PKG-INFO
+[2.531s] writing dependency_links to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/dependency_links.txt
+[2.532s] writing entry points to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/entry_points.txt
+[2.532s] writing requirements to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/requires.txt
+[2.532s] writing top-level names to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/top_level.txt
+[2.611s] reading manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'
+[2.612s] writing manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'
+[2.613s] running build
+[2.613s] running build_py
+[2.614s] copying pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic
+[2.615s] copying pradobot_ultrasonic/ultrasonic_interface.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic
+[2.615s] running install
+[2.615s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.616s] !!
+[2.617s] 
+[2.617s]         ********************************************************************************
+[2.618s]         Please avoid running ``setup.py`` directly.
+[2.619s]         Instead, use pypa/build, pypa/installer or other
+[2.619s]         standards-based tools.
+[2.619s] 
+[2.629s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.629s]         ********************************************************************************
+[2.630s] 
+[2.630s] !!
+[2.631s]   self.initialize_options()
+[2.631s] running install_lib
+[2.659s] copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic
+[2.660s] copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_interface.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic
+[2.661s] byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_core.py to ultrasonic_core.cpython-38.pyc
+[2.662s] byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_interface.py to ultrasonic_interface.cpython-38.pyc
+[2.663s] running install_data
+[2.699s] running install_egg_info
+[2.738s] removing '/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info' (and everything under it)
+[2.738s] Copying ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info to /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info
+[2.740s] running install_scripts
+[3.102s] Installing ultrasonic_node script to /home/ros2_ws/install/pradobot_ultrasonic/lib/pradobot_ultrasonic
+[3.102s] writing list of installed files to '/home/ros2_ws/build/pradobot_ultrasonic/install.log'
+[3.185s] Invoked command in '/home/ros2_ws/src/pradobot_ultrasonic' returned '0': PYTHONPATH=/home/ros2_ws/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pradobot_ultrasonic build --build-base /home/ros2_ws/build/pradobot_ultrasonic/build install --record /home/ros2_ws/build/pradobot_ultrasonic/install.log --single-version-externally-managed

@@ -1,0 +1,4 @@
+[console_scripts]
+control_node = pradobot_ultrasonic.controller_core:main
+joystick_node = pradobot_ultrasonic.joystick_core:main
+ultrasonic_node = pradobot_ultrasonic.ultrasonic_core:main

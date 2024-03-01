@@ -1,0 +1,23 @@
+[0.094s] Invoking command in '/home/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2_ws/install/pradobot_ultrasonic /usr/local/bin/cmake --build /home/ros2_ws/build/vectornav_msgs -- -j6 -l6
+[0.200s] [  0%] Built target vectornav_msgs__cpp
+[0.209s] [ 12%] Built target vectornav_msgs__rosidl_generator_c
+[0.215s] [ 12%] Built target ament_cmake_python_copy_vectornav_msgs
+[0.240s] [ 24%] Built target vectornav_msgs__rosidl_typesupport_cpp
+[0.246s] [ 35%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp
+[0.247s] [ 53%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp
+[0.248s] [ 59%] Built target vectornav_msgs__rosidl_typesupport_c
+[0.250s] [ 71%] Built target vectornav_msgs__rosidl_typesupport_introspection_c
+[0.252s] [ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c
+[0.269s] [ 83%] Built target vectornav_msgs
+[0.290s] [ 84%] Built target vectornav_msgs__py
+[0.320s] [ 95%] Built target vectornav_msgs__rosidl_generator_py
+[0.343s] [ 99%] Built target vectornav_msgs__rosidl_typesupport_c__pyext
+[0.343s] [100%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext
+[0.343s] [100%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.676s] running egg_info
+[0.715s] writing vectornav_msgs.egg-info/PKG-INFO
+[0.716s] writing dependency_links to vectornav_msgs.egg-info/dependency_links.txt
+[0.716s] writing top-level names to vectornav_msgs.egg-info/top_level.txt
+[0.829s] reading manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[0.830s] writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'
+[0.882s] [100%] Built target ament_cmake_python_build_vectornav_msgs_egg

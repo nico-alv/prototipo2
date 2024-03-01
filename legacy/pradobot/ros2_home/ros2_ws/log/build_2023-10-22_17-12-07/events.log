@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000821] (pradobot_ultrasonic) JobQueued: {'identifier': 'pradobot_ultrasonic', 'dependencies': OrderedDict()}
+[0.001846] (pradobot_ultrasonic) JobStarted: {'identifier': 'pradobot_ultrasonic'}
+[0.100016] (-) TimerEvent: {}
+[0.200658] (-) TimerEvent: {}
+[0.301207] (-) TimerEvent: {}
+[0.401716] (-) TimerEvent: {}
+[0.502241] (-) TimerEvent: {}
+[0.602874] (-) TimerEvent: {}
+[0.703644] (-) TimerEvent: {}
+[0.804183] (-) TimerEvent: {}
+[0.904654] (-) TimerEvent: {}
+[1.005086] (-) TimerEvent: {}
+[1.105510] (-) TimerEvent: {}
+[1.205920] (-) TimerEvent: {}
+[1.306322] (-) TimerEvent: {}
+[1.406797] (-) TimerEvent: {}
+[1.507328] (-) TimerEvent: {}
+[1.607840] (-) TimerEvent: {}
+[1.708285] (-) TimerEvent: {}
+[1.808688] (-) TimerEvent: {}
+[1.909207] (-) TimerEvent: {}
+[1.957980] (pradobot_ultrasonic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pradobot_ultrasonic', 'build', '--build-base', '/home/ros2_ws/build/pradobot_ultrasonic/build', 'install', '--record', '/home/ros2_ws/build/pradobot_ultrasonic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2_ws/src/pradobot_ultrasonic', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/ros2_ws/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/ros2_ws/build/pradobot_ultrasonic', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/home/ros2_ws/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/humble/install'}, 'shell': False}
+[2.009399] (-) TimerEvent: {}
+[2.110025] (-) TimerEvent: {}
+[2.210576] (-) TimerEvent: {}
+[2.311184] (-) TimerEvent: {}
+[2.411682] (-) TimerEvent: {}
+[2.448119] (pradobot_ultrasonic) StdoutLine: {'line': b'running egg_info\n'}
+[2.448918] (pradobot_ultrasonic) StdoutLine: {'line': b'creating ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info\n'}
+[2.483653] (pradobot_ultrasonic) StdoutLine: {'line': b'writing ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/PKG-INFO\n'}
+[2.484249] (pradobot_ultrasonic) StdoutLine: {'line': b'writing dependency_links to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/dependency_links.txt\n'}
+[2.484772] (pradobot_ultrasonic) StdoutLine: {'line': b'writing requirements to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/requires.txt\n'}
+[2.485118] (pradobot_ultrasonic) StdoutLine: {'line': b'writing top-level names to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/top_level.txt\n'}
+[2.485448] (pradobot_ultrasonic) StdoutLine: {'line': b"writing manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.511766] (-) TimerEvent: {}
+[2.556007] (pradobot_ultrasonic) StdoutLine: {'line': b"reading manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.557393] (pradobot_ultrasonic) StdoutLine: {'line': b"writing manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.557813] (pradobot_ultrasonic) StdoutLine: {'line': b'running build\n'}
+[2.558103] (pradobot_ultrasonic) StdoutLine: {'line': b'running build_py\n'}
+[2.558528] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/build/pradobot_ultrasonic/build\n'}
+[2.558889] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/build/pradobot_ultrasonic/build/lib\n'}
+[2.559155] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic\n'}
+[2.559465] (pradobot_ultrasonic) StdoutLine: {'line': b'copying pradobot_ultrasonic/__init__.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic\n'}
+[2.559706] (pradobot_ultrasonic) StdoutLine: {'line': b'running install\n'}
+[2.560398] (pradobot_ultrasonic) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.560621] (pradobot_ultrasonic) StderrLine: {'line': b'!!\n'}
+[2.560754] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.560876] (pradobot_ultrasonic) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.560997] (pradobot_ultrasonic) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.561114] (pradobot_ultrasonic) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.561231] (pradobot_ultrasonic) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.561346] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.561460] (pradobot_ultrasonic) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.561575] (pradobot_ultrasonic) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.561691] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.561803] (pradobot_ultrasonic) StderrLine: {'line': b'!!\n'}
+[2.561915] (pradobot_ultrasonic) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.570424] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_lib\n'}
+[2.606429] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic\n'}
+[2.606792] (pradobot_ultrasonic) StdoutLine: {'line': b'copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/__init__.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic\n'}
+[2.607741] (pradobot_ultrasonic) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/__init__.py to __init__.cpython-38.pyc\n'}
+[2.608267] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_data\n'}
+[2.611862] (-) TimerEvent: {}
+[2.643056] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/install/pradobot_ultrasonic/share/ament_index\n'}
+[2.643562] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/install/pradobot_ultrasonic/share/ament_index/resource_index\n'}
+[2.643977] (pradobot_ultrasonic) StdoutLine: {'line': b'creating /home/ros2_ws/install/pradobot_ultrasonic/share/ament_index/resource_index/packages\n'}
+[2.644319] (pradobot_ultrasonic) StdoutLine: {'line': b'copying resource/pradobot_ultrasonic -> /home/ros2_ws/install/pradobot_ultrasonic/share/ament_index/resource_index/packages\n'}
+[2.644581] (pradobot_ultrasonic) StdoutLine: {'line': b'copying package.xml -> /home/ros2_ws/install/pradobot_ultrasonic/share/pradobot_ultrasonic\n'}
+[2.644827] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.680596] (pradobot_ultrasonic) StdoutLine: {'line': b'Copying ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info to /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info\n'}
+[2.682381] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_scripts\n'}
+[2.711959] (-) TimerEvent: {}
+[2.812475] (-) TimerEvent: {}
+[2.913058] (-) TimerEvent: {}
+[3.013596] (-) TimerEvent: {}
+[3.038302] (pradobot_ultrasonic) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/pradobot_ultrasonic/install.log'\n"}
+[3.110189] (pradobot_ultrasonic) CommandEnded: {'returncode': 0}
+[3.115791] (-) TimerEvent: {}
+[3.161924] (pradobot_ultrasonic) JobEnded: {'identifier': 'pradobot_ultrasonic', 'rc': 0}
+[3.164000] (-) EventReactorShutdown: {}

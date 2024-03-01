@@ -1,0 +1,524 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (pradobot_ultrasonic) JobQueued: {'identifier': 'pradobot_ultrasonic', 'dependencies': OrderedDict()}
+[0.001254] (vectornav_msgs) JobQueued: {'identifier': 'vectornav_msgs', 'dependencies': OrderedDict()}
+[0.001653] (vectornav) JobQueued: {'identifier': 'vectornav', 'dependencies': OrderedDict([('vectornav_msgs', '/home/ros2_ws/src/install/vectornav_msgs')])}
+[0.002343] (vectornav_msgs) JobStarted: {'identifier': 'vectornav_msgs'}
+[0.044526] (pradobot_ultrasonic) JobStarted: {'identifier': 'pradobot_ultrasonic'}
+[0.086362] (vectornav_msgs) JobProgress: {'identifier': 'vectornav_msgs', 'progress': 'cmake'}
+[0.088049] (vectornav_msgs) JobProgress: {'identifier': 'vectornav_msgs', 'progress': 'build'}
+[0.089293] (vectornav_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/ros2_ws/src/build/vectornav_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ros2_ws/src/build/vectornav_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/src/build/vectornav_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.099923] (-) TimerEvent: {}
+[0.201875] (-) TimerEvent: {}
+[0.247378] (vectornav_msgs) StdoutLine: {'line': b'[  0%] Built target vectornav_msgs__cpp\n'}
+[0.267408] (vectornav_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_vectornav_msgs\n'}
+[0.276814] (vectornav_msgs) StdoutLine: {'line': b'[ 12%] Built target vectornav_msgs__rosidl_generator_c\n'}
+[0.301988] (-) TimerEvent: {}
+[0.310039] (vectornav_msgs) StdoutLine: {'line': b'[ 24%] Built target vectornav_msgs__rosidl_typesupport_cpp\n'}
+[0.313390] (vectornav_msgs) StdoutLine: {'line': b'[ 35%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.314934] (vectornav_msgs) StdoutLine: {'line': b'[ 47%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.340405] (vectornav_msgs) StdoutLine: {'line': b'[ 59%] Built target vectornav_msgs__rosidl_typesupport_introspection_c\n'}
+[0.343801] (vectornav_msgs) StdoutLine: {'line': b'[ 71%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.347452] (vectornav_msgs) StdoutLine: {'line': b'[ 83%] Built target vectornav_msgs__rosidl_typesupport_c\n'}
+[0.365749] (vectornav_msgs) StdoutLine: {'line': b'[ 83%] Built target vectornav_msgs\n'}
+[0.387277] (vectornav_msgs) StdoutLine: {'line': b'[ 84%] Built target vectornav_msgs__py\n'}
+[0.402129] (-) TimerEvent: {}
+[0.441513] (vectornav_msgs) StdoutLine: {'line': b'[ 95%] Built target vectornav_msgs__rosidl_generator_py\n'}
+[0.469796] (vectornav_msgs) StdoutLine: {'line': b'[ 99%] Built target vectornav_msgs__rosidl_typesupport_c__pyext\n'}
+[0.470281] (vectornav_msgs) StdoutLine: {'line': b'[ 99%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.470471] (vectornav_msgs) StdoutLine: {'line': b'[100%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.502247] (-) TimerEvent: {}
+[0.602835] (-) TimerEvent: {}
+[0.703473] (-) TimerEvent: {}
+[0.704461] (vectornav_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.744014] (vectornav_msgs) StdoutLine: {'line': b'writing vectornav_msgs.egg-info/PKG-INFO\n'}
+[0.744800] (vectornav_msgs) StdoutLine: {'line': b'writing dependency_links to vectornav_msgs.egg-info/dependency_links.txt\n'}
+[0.745605] (vectornav_msgs) StdoutLine: {'line': b'writing top-level names to vectornav_msgs.egg-info/top_level.txt\n'}
+[0.803554] (-) TimerEvent: {}
+[0.855396] (vectornav_msgs) StdoutLine: {'line': b"reading manifest file 'vectornav_msgs.egg-info/SOURCES.txt'\n"}
+[0.857127] (vectornav_msgs) StdoutLine: {'line': b"writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'\n"}
+[0.903709] (-) TimerEvent: {}
+[0.908035] (vectornav_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_vectornav_msgs_egg\n'}
+[0.928257] (vectornav_msgs) CommandEnded: {'returncode': 0}
+[1.003921] (-) TimerEvent: {}
+[1.104597] (-) TimerEvent: {}
+[1.205205] (-) TimerEvent: {}
+[1.305760] (-) TimerEvent: {}
+[1.344783] (vectornav_msgs) JobProgress: {'identifier': 'vectornav_msgs', 'progress': 'install'}
+[1.406005] (-) TimerEvent: {}
+[1.416256] (vectornav_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/ros2_ws/src/build/vectornav_msgs'], 'cwd': '/home/ros2_ws/src/build/vectornav_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/src/build/vectornav_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[1.478209] (vectornav_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.479066] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs\n'}
+[1.479368] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[1.479628] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[1.479824] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[1.480055] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.h\n'}
+[1.480309] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.c\n'}
+[1.480545] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.h\n'}
+[1.480782] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.h\n'}
+[1.481033] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.c\n'}
+[1.481232] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.h\n'}
+[1.481465] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.h\n'}
+[1.481692] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.h\n'}
+[1.481918] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.h\n'}
+[1.482146] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.c\n'}
+[1.482417] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.c\n'}
+[1.482626] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.h\n'}
+[1.482884] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.h\n'}
+[1.483129] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.c\n'}
+[1.483352] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.h\n'}
+[1.483516] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.h\n'}
+[1.483652] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.h\n'}
+[1.483872] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.h\n'}
+[1.484034] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.h\n'}
+[1.484195] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.h\n'}
+[1.484387] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.h\n'}
+[1.484525] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.h\n'}
+[1.484652] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.h\n'}
+[1.484811] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.h\n'}
+[1.484943] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.h\n'}
+[1.485072] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.h\n'}
+[1.485197] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.h\n'}
+[1.485322] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.c\n'}
+[1.485445] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.c\n'}
+[1.485567] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.h\n'}
+[1.485689] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.c\n'}
+[1.485857] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.h\n'}
+[1.485986] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.c\n'}
+[1.486198] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.h\n'}
+[1.486355] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.h\n'}
+[1.486575] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.h\n'}
+[1.486788] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.h\n'}
+[1.487025] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.h\n'}
+[1.487214] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.h\n'}
+[1.487345] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.c\n'}
+[1.487469] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.h\n'}
+[1.487591] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.c\n'}
+[1.487727] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.h\n'}
+[1.487886] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.h\n'}
+[1.488023] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.h\n'}
+[1.488150] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.488365] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.h\n'}
+[1.488574] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.h\n'}
+[1.488795] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.h\n'}
+[1.489041] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.h\n'}
+[1.489272] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.h\n'}
+[1.489499] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.h\n'}
+[1.489741] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.h\n'}
+[1.489971] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.h\n'}
+[1.490196] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.h\n'}
+[1.490445] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.h\n'}
+[1.490693] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[1.490922] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[1.491127] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.h\n'}
+[1.491317] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.h\n'}
+[1.491508] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.c\n'}
+[1.491721] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.h\n'}
+[1.491977] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.h\n'}
+[1.492162] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh\n'}
+[1.492388] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv\n'}
+[1.492576] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so\n'}
+[1.492707] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[1.492865] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[1.492991] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[1.493116] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h\n'}
+[1.493244] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h\n'}
+[1.493369] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h\n'}
+[1.493498] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h\n'}
+[1.493655] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.493781] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.493919] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h\n'}
+[1.494130] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h\n'}
+[1.494338] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h\n'}
+[1.494560] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h\n'}
+[1.494783] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h\n'}
+[1.494948] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.495080] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[1.495207] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[1.495413] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_c.h\n'}
+[1.495615] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.495867] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[1.496100] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[1.496233] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[1.496361] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.hpp\n'}
+[1.496487] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__traits.hpp\n'}
+[1.496611] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__builder.hpp\n'}
+[1.496753] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__traits.hpp\n'}
+[1.496889] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__builder.hpp\n'}
+[1.497015] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__traits.hpp\n'}
+[1.497168] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__traits.hpp\n'}
+[1.497301] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.hpp\n'}
+[1.497427] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.hpp\n'}
+[1.497550] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__traits.hpp\n'}
+[1.497670] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.hpp\n'}
+[1.497791] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__builder.hpp\n'}
+[1.497914] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__traits.hpp\n'}
+[1.498054] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__traits.hpp\n'}
+[1.498177] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.hpp\n'}
+[1.498345] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__builder.hpp\n'}
+[1.498487] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.hpp\n'}
+[1.498669] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.hpp\n'}
+[1.498856] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__builder.hpp\n'}
+[1.499077] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__traits.hpp\n'}
+[1.499270] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__builder.hpp\n'}
+[1.499490] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__builder.hpp\n'}
+[1.499710] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.hpp\n'}
+[1.499934] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.hpp\n'}
+[1.500149] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.hpp\n'}
+[1.500333] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__builder.hpp\n'}
+[1.500462] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__traits.hpp\n'}
+[1.500588] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__traits.hpp\n'}
+[1.500711] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__builder.hpp\n'}
+[1.500898] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__builder.hpp\n'}
+[1.501025] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.hpp\n'}
+[1.501150] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__builder.hpp\n'}
+[1.501318] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__traits.hpp\n'}
+[1.501446] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.hpp\n'}
+[1.501570] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.hpp\n'}
+[1.501691] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.hpp\n'}
+[1.501828] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.hpp\n'}
+[1.501952] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.hpp\n'}
+[1.502073] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.hpp\n'}
+[1.502216] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.hpp\n'}
+[1.502345] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.hpp\n'}
+[1.502470] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.hpp\n'}
+[1.502631] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.hpp\n'}
+[1.502792] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.hpp\n'}
+[1.502917] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[1.503078] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[1.503232] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__builder.hpp\n'}
+[1.503360] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__traits.hpp\n'}
+[1.503504] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.hpp\n'}
+[1.503673] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.hpp\n'}
+[1.503801] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[1.503961] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[1.504121] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[1.504249] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.504372] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.504531] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.504756] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.504900] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.505132] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.505358] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.505599] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.505799] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dds_fastrtps\n'}
+[1.506022] (-) TimerEvent: {}
+[1.506393] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.506559] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.506698] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.507127] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.507282] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[1.507415] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[1.507540] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.507661] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/dds_fastrtps\n'}
+[1.507784] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.507907] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[1.508031] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[1.508155] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[1.508275] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.c\n'}
+[1.508395] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.c\n'}
+[1.508514] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.c\n'}
+[1.508657] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h\n'}
+[1.508822] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.c\n'}
+[1.508951] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.c\n'}
+[1.509074] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h\n'}
+[1.509217] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h\n'}
+[1.509341] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h\n'}
+[1.509462] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h\n'}
+[1.509586] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.c\n'}
+[1.509706] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.c\n'}
+[1.509826] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.c\n'}
+[1.509947] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.c\n'}
+[1.510067] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.c\n'}
+[1.510184] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h\n'}
+[1.510301] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h\n'}
+[1.510420] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h\n'}
+[1.510569] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h\n'}
+[1.510691] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.c\n'}
+[1.510812] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h\n'}
+[1.510933] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h\n'}
+[1.511055] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.511175] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[1.511294] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[1.511413] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.c\n'}
+[1.511535] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_c.h\n'}
+[1.511656] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.511795] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so\n'}
+[1.511916] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[1.512037] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[1.512159] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[1.512293] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.512417] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.cpp\n'}
+[1.512538] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.cpp\n'}
+[1.512659] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.cpp\n'}
+[1.512809] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.512939] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.513058] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.513180] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.513301] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.513419] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.cpp\n'}
+[1.513538] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.cpp\n'}
+[1.513657] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.cpp\n'}
+[1.513775] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.513894] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.514016] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.514134] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.514285] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.cpp\n'}
+[1.514421] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.cpp\n'}
+[1.514546] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.cpp\n'}
+[1.514666] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.514786] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.cpp\n'}
+[1.514904] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.cpp\n'}
+[1.515023] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[1.515145] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[1.515267] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.515387] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.cpp\n'}
+[1.515507] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.515645] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so\n'}
+[1.515770] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh\n'}
+[1.515891] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv\n'}
+[1.516012] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info\n'}
+[1.516132] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/PKG-INFO\n'}
+[1.516253] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/top_level.txt\n'}
+[1.516372] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[1.516492] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[1.516613] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs\n'}
+[1.516752] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.516890] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.517020] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg\n'}
+[1.517157] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group.py\n'}
+[1.517276] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc_s.c\n'}
+[1.517396] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop.py\n'}
+[1.517516] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status.py\n'}
+[1.517635] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status.py\n'}
+[1.517753] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group_s.c\n'}
+[1.517872] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group.py\n'}
+[1.517989] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop_s.c\n'}
+[1.518110] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group.py\n'}
+[1.518229] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group_s.c\n'}
+[1.518396] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group.py\n'}
+[1.518518] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group_s.c\n'}
+[1.518641] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status_s.c\n'}
+[1.518763] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group_s.c\n'}
+[1.518884] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/__init__.py\n'}
+[1.519005] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status_s.c\n'}
+[1.519125] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group.py\n'}
+[1.519244] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status_s.c\n'}
+[1.519365] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group_s.c\n'}
+[1.519500] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group.py\n'}
+[1.519624] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status.py\n'}
+[1.519743] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group_s.c\n'}
+[1.519863] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc.py\n'}
+[1.519982] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.520119] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so\n'}
+[1.520240] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py\n'}
+[1.520357] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action\n'}
+[1.520475] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/_mag_cal.py\n'}
+[1.520596] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/_mag_cal_s.c\n'}
+[1.520735] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/__init__.py\n'}
+[1.520871] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.521002] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.521125] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.573668] (vectornav_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs'...\n"}
+[1.573989] (vectornav_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action'...\n"}
+[1.574146] (vectornav_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg'...\n"}
+[1.585060] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.586490] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.588073] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[1.589483] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so\n'}
+[1.589971] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl\n'}
+[1.590136] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl\n'}
+[1.590330] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl\n'}
+[1.590523] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl\n'}
+[1.590698] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl\n'}
+[1.590865] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl\n'}
+[1.591059] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl\n'}
+[1.591261] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl\n'}
+[1.591395] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl\n'}
+[1.591559] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl\n'}
+[1.591724] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl\n'}
+[1.591906] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.idl\n'}
+[1.592068] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg\n'}
+[1.592232] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg\n'}
+[1.592415] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg\n'}
+[1.592580] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg\n'}
+[1.592763] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg\n'}
+[1.592932] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg\n'}
+[1.593089] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg\n'}
+[1.593217] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg\n'}
+[1.593377] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg\n'}
+[1.593501] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg\n'}
+[1.593655] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg\n'}
+[1.593789] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.action\n'}
+[1.593913] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs\n'}
+[1.594079] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs\n'}
+[1.594245] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh\n'}
+[1.594476] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv\n'}
+[1.594713] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh\n'}
+[1.594934] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv\n'}
+[1.595127] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash\n'}
+[1.595337] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh\n'}
+[1.595579] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh\n'}
+[1.595747] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv\n'}
+[1.595937] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.dsv\n'}
+[1.596489] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs\n'}
+[1.597643] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport.cmake\n'}
+[1.597831] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.598533] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.598826] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.599787] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.600728] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.600932] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.601651] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.601822] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.602530] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.602700] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.603418] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.603596] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.604399] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.604607] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.605563] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.605778] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.606037] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.606174] (-) TimerEvent: {}
+[1.606461] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.606692] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.606836] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.607045] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.607251] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.607388] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.607517] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake\n'}
+[1.607643] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake\n'}
+[1.607768] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav_msgs/share/vectornav_msgs/package.xml\n'}
+[1.619595] (vectornav_msgs) CommandEnded: {'returncode': 0}
+[1.706368] (-) TimerEvent: {}
+[1.806983] (-) TimerEvent: {}
+[1.907639] (-) TimerEvent: {}
+[2.008181] (-) TimerEvent: {}
+[2.073368] (pradobot_ultrasonic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pradobot_ultrasonic', 'build', '--build-base', '/home/ros2_ws/src/build/pradobot_ultrasonic/build', 'install', '--record', '/home/ros2_ws/src/build/pradobot_ultrasonic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2_ws/src/pradobot_ultrasonic', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/home/ros2_ws', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/ros2_ws/src/build/pradobot_ultrasonic', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/home/ros2_ws/src/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/humble/install'}, 'shell': False}
+[2.108347] (-) TimerEvent: {}
+[2.195850] (vectornav_msgs) JobEnded: {'identifier': 'vectornav_msgs', 'rc': 0}
+[2.207000] (vectornav) JobStarted: {'identifier': 'vectornav'}
+[2.208438] (-) TimerEvent: {}
+[2.235867] (vectornav) JobProgress: {'identifier': 'vectornav', 'progress': 'cmake'}
+[2.237827] (vectornav) JobProgress: {'identifier': 'vectornav', 'progress': 'build'}
+[2.238428] (vectornav) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/ros2_ws/src/build/vectornav', '--', '-j6', '-l6'], 'cwd': '/home/ros2_ws/src/build/vectornav', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/src/install/vectornav_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/src/build/vectornav'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/src/install/vectornav_msgs:/opt/ros/humble/install')]), 'shell': False}
+[2.308637] (-) TimerEvent: {}
+[2.391551] (vectornav) StdoutLine: {'line': b'[  7%] Built target vn_sensor_msgs\n'}
+[2.401447] (vectornav) StdoutLine: {'line': b'[ 92%] Built target vncxx\n'}
+[2.408761] (-) TimerEvent: {}
+[2.440390] (vectornav) StdoutLine: {'line': b'[100%] Built target vectornav\n'}
+[2.458742] (vectornav) CommandEnded: {'returncode': 0}
+[2.508954] (-) TimerEvent: {}
+[2.558833] (vectornav) JobProgress: {'identifier': 'vectornav', 'progress': 'install'}
+[2.560020] (vectornav) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/ros2_ws/src/build/vectornav'], 'cwd': '/home/ros2_ws/src/build/vectornav', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/src/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/src/install/vectornav_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/src/build/vectornav'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/home/ros2_ws/src/install/vectornav_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/src/install/vectornav_msgs:/opt/ros/humble/install')]), 'shell': False}
+[2.578603] (pradobot_ultrasonic) StdoutLine: {'line': b'running egg_info\n'}
+[2.608996] (-) TimerEvent: {}
+[2.615834] (pradobot_ultrasonic) StdoutLine: {'line': b'writing ../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/PKG-INFO\n'}
+[2.616738] (pradobot_ultrasonic) StdoutLine: {'line': b'writing dependency_links to ../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/dependency_links.txt\n'}
+[2.617332] (pradobot_ultrasonic) StdoutLine: {'line': b'writing entry points to ../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/entry_points.txt\n'}
+[2.617743] (pradobot_ultrasonic) StdoutLine: {'line': b'writing requirements to ../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/requires.txt\n'}
+[2.618092] (pradobot_ultrasonic) StdoutLine: {'line': b'writing top-level names to ../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/top_level.txt\n'}
+[2.622360] (vectornav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.624090] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/lib/vectornav/vectornav\n'}
+[2.625328] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/lib/vectornav/vn_sensor_msgs\n'}
+[2.625881] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav//config\n'}
+[2.626208] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav//config/vn_100_800hz.yaml\n'}
+[2.626555] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav//config/vectornav.yaml\n'}
+[2.626862] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav//launch\n'}
+[2.627156] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav//launch/vectornav.launch.py\n'}
+[2.627468] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/ament_index/resource_index/package_run_dependencies/vectornav\n'}
+[2.627883] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/ament_index/resource_index/parent_prefix_path/vectornav\n'}
+[2.628313] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/environment/ament_prefix_path.sh\n'}
+[2.628618] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/environment/ament_prefix_path.dsv\n'}
+[2.628893] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/environment/path.sh\n'}
+[2.629200] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/environment/path.dsv\n'}
+[2.629620] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/local_setup.bash\n'}
+[2.629872] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/local_setup.sh\n'}
+[2.630111] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/local_setup.zsh\n'}
+[2.630345] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/local_setup.dsv\n'}
+[2.630574] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/src/install/vectornav/share/vectornav/package.dsv\n'}
+[2.630801] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/ament_index/resource_index/packages/vectornav\n'}
+[2.631085] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.631389] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/cmake/vectornavConfig.cmake\n'}
+[2.631904] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/cmake/vectornavConfig-version.cmake\n'}
+[2.632501] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/share/vectornav/package.xml\n'}
+[2.633130] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/lib/libvncxx.so\n'}
+[2.633435] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn\n'}
+[2.633684] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/compositedata.h\n'}
+[2.633928] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/types.h\n'}
+[2.634166] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/conversions.h\n'}
+[2.634399] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/serialport.h\n'}
+[2.634631] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/vntime.h\n'}
+[2.634861] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/dllvalidator.h\n'}
+[2.635090] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/export.h\n'}
+[2.635318] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/packet.h\n'}
+[2.635546] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/sensors.h\n'}
+[2.635774] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/memoryport.h\n'}
+[2.636001] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/position.h\n'}
+[2.636230] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/int.h\n'}
+[2.636458] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/signal.h\n'}
+[2.636683] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/thread.h\n'}
+[2.636959] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/utilities.h\n'}
+[2.637195] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/util.h\n'}
+[2.637424] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/mock.h\n'}
+[2.637649] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/registers.h\n'}
+[2.637875] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/boostpython.h\n'}
+[2.638101] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/compiler.h\n'}
+[2.638325] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/vector.h\n'}
+[2.638552] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/criticalsection.h\n'}
+[2.638777] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/nocopy.h\n'}
+[2.639001] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/error_detection.h\n'}
+[2.639278] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/packetfinder.h\n'}
+[2.639511] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/consts.h\n'}
+[2.639737] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/rtcmmessage.h\n'}
+[2.639963] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/ezasyncdata.h\n'}
+[2.640186] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/rtcmlistener.h\n'}
+[2.640410] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/searcher.h\n'}
+[2.640634] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/attitude.h\n'}
+[2.640895] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/event.h\n'}
+[2.641126] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/exceptions.h\n'}
+[2.641377] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/port.h\n'}
+[2.641607] (vectornav) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/src/install/vectornav/include/vn/matrix.h\n'}
+[2.644946] (vectornav) CommandEnded: {'returncode': 0}
+[2.692340] (pradobot_ultrasonic) StdoutLine: {'line': b"reading manifest file '../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.700019] (pradobot_ultrasonic) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.700414] (pradobot_ultrasonic) StderrLine: {'line': b'!!\n'}
+[2.701332] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.701565] (pradobot_ultrasonic) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.701839] (pradobot_ultrasonic) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.702357] (pradobot_ultrasonic) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.703059] (pradobot_ultrasonic) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.703348] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.703635] (pradobot_ultrasonic) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.704231] (pradobot_ultrasonic) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.705002] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.705235] (pradobot_ultrasonic) StderrLine: {'line': b'!!\n'}
+[2.705490] (pradobot_ultrasonic) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.706006] (pradobot_ultrasonic) StdoutLine: {'line': b"writing manifest file '../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.706473] (pradobot_ultrasonic) StdoutLine: {'line': b'running build\n'}
+[2.706756] (pradobot_ultrasonic) StdoutLine: {'line': b'running build_py\n'}
+[2.707002] (pradobot_ultrasonic) StdoutLine: {'line': b'copying pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/src/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic\n'}
+[2.707590] (pradobot_ultrasonic) StdoutLine: {'line': b'copying pradobot_ultrasonic/ultrasonic_interface.py -> /home/ros2_ws/src/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic\n'}
+[2.708042] (pradobot_ultrasonic) StdoutLine: {'line': b'running install\n'}
+[2.708297] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_lib\n'}
+[2.709082] (-) TimerEvent: {}
+[2.745928] (pradobot_ultrasonic) StdoutLine: {'line': b'copying /home/ros2_ws/src/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic\n'}
+[2.746544] (pradobot_ultrasonic) StdoutLine: {'line': b'copying /home/ros2_ws/src/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_interface.py -> /home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic\n'}
+[2.747322] (pradobot_ultrasonic) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_core.py to ultrasonic_core.cpython-38.pyc\n'}
+[2.748468] (pradobot_ultrasonic) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_interface.py to ultrasonic_interface.cpython-38.pyc\n'}
+[2.749186] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_data\n'}
+[2.786442] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.814297] (-) TimerEvent: {}
+[2.826216] (pradobot_ultrasonic) StdoutLine: {'line': b"removing '/home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.829949] (pradobot_ultrasonic) StdoutLine: {'line': b'Copying ../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info to /home/ros2_ws/src/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info\n'}
+[2.830381] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_scripts\n'}
+[2.863038] (vectornav) JobEnded: {'identifier': 'vectornav', 'rc': 0}
+[2.914386] (-) TimerEvent: {}
+[3.015007] (-) TimerEvent: {}
+[3.115490] (-) TimerEvent: {}
+[3.182867] (pradobot_ultrasonic) StdoutLine: {'line': b'Installing ultrasonic_node script to /home/ros2_ws/src/install/pradobot_ultrasonic/lib/pradobot_ultrasonic\n'}
+[3.183875] (pradobot_ultrasonic) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/src/build/pradobot_ultrasonic/install.log'\n"}
+[3.215614] (-) TimerEvent: {}
+[3.258616] (pradobot_ultrasonic) CommandEnded: {'returncode': 0}
+[3.299994] (pradobot_ultrasonic) JobEnded: {'identifier': 'pradobot_ultrasonic', 'rc': 0}
+[3.302514] (-) EventReactorShutdown: {}

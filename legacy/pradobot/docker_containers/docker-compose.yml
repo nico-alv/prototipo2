@@ -1,0 +1,14 @@
+
+services:
+  pradobot-ros:
+    image: pradobot-ros:latest
+    container_name: pradobot-ros-container
+    network_mode: host
+    #restart: always
+    runtime: nvidia  # Added runtime parameter
+    devices:  # Added device parameters
+      - /dev/input/event8
+      - /dev/ttyTHS0
+      - /dev/input/js0
+    volumes:  # Added volume parameter
+      - /home/pradobot/ros2_home/:/home

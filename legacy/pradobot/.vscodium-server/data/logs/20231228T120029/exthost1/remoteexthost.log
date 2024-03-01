@@ -1,0 +1,13 @@
+2023-12-28 12:00:38.309 [info] Extension host with pid 3224 started
+2023-12-28 12:00:38.309 [error] Error: EEXIST: file already exists, open '/home/pradobot/.vscodium-server/data/User/workspaceStorage/4f79949578b670d807c724c79e4569ca/vscode.lock'
+2023-12-28 12:00:38.314 [info] Lock '/home/pradobot/.vscodium-server/data/User/workspaceStorage/4f79949578b670d807c724c79e4569ca/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-12-28 12:00:38.323 [info] Lock '/home/pradobot/.vscodium-server/data/User/workspaceStorage/4f79949578b670d807c724c79e4569ca/vscode.lock': The pid 2998 appears to be gone.
+2023-12-28 12:00:38.323 [info] Lock '/home/pradobot/.vscodium-server/data/User/workspaceStorage/4f79949578b670d807c724c79e4569ca/vscode.lock': Deleting a stale lock.
+2023-12-28 12:00:38.342 [info] Lock '/home/pradobot/.vscodium-server/data/User/workspaceStorage/4f79949578b670d807c724c79e4569ca/vscode.lock': Lock acquired.
+2023-12-28 12:00:38.793 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-12-28 12:00:39.446 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-12-28 12:00:39.482 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-12-28 12:00:39.483 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-12-28 12:00:39.754 [info] Eager extensions activated
+2023-12-28 12:00:39.755 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-12-28 12:00:39.756 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

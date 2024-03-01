@@ -1,0 +1,36 @@
+[2.075s] Invoking command in '/home/ros2_ws/src/pradobot_ultrasonic': PYTHONPATH=/home/ros2_ws/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pradobot_ultrasonic build --build-base /home/ros2_ws/build/pradobot_ultrasonic/build install --record /home/ros2_ws/build/pradobot_ultrasonic/install.log --single-version-externally-managed
+[2.575s] running egg_info
+[2.612s] writing ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/PKG-INFO
+[2.613s] writing dependency_links to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/dependency_links.txt
+[2.613s] writing entry points to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/entry_points.txt
+[2.613s] writing requirements to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/requires.txt
+[2.614s] writing top-level names to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/top_level.txt
+[2.690s] reading manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'
+[2.692s] writing manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'
+[2.692s] running build
+[2.693s] running build_py
+[2.695s] running install
+[2.696s] /usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[2.696s] !!
+[2.696s] 
+[2.696s]         ********************************************************************************
+[2.696s]         Please avoid running ``setup.py`` directly.
+[2.696s]         Instead, use pypa/build, pypa/installer or other
+[2.696s]         standards-based tools.
+[2.697s] 
+[2.697s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[2.697s]         ********************************************************************************
+[2.697s] 
+[2.697s] !!
+[2.697s]   self.initialize_options()
+[2.706s] running install_lib
+[2.746s] running install_data
+[2.802s] running install_egg_info
+[2.824s] removing '/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info' (and everything under it)
+[2.824s] Copying ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info to /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info
+[2.825s] running install_scripts
+[3.183s] Installing control_node script to /home/ros2_ws/install/pradobot_ultrasonic/lib/pradobot_ultrasonic
+[3.183s] Installing joystick_node script to /home/ros2_ws/install/pradobot_ultrasonic/lib/pradobot_ultrasonic
+[3.184s] Installing ultrasonic_node script to /home/ros2_ws/install/pradobot_ultrasonic/lib/pradobot_ultrasonic
+[3.184s] writing list of installed files to '/home/ros2_ws/build/pradobot_ultrasonic/install.log'
+[3.265s] Invoked command in '/home/ros2_ws/src/pradobot_ultrasonic' returned '0': PYTHONPATH=/home/ros2_ws/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pradobot_ultrasonic build --build-base /home/ros2_ws/build/pradobot_ultrasonic/build install --record /home/ros2_ws/build/pradobot_ultrasonic/install.log --single-version-externally-managed

@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/PKG-INFO
+writing dependency_links to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/dependency_links.txt
+writing entry points to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/entry_points.txt
+writing requirements to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/requires.txt
+writing top-level names to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/top_level.txt
+reading manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'
+writing manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pradobot_ultrasonic/joystick_core.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic
+copying pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic
+copying pradobot_ultrasonic/ultrasonic_interface.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic
+copying pradobot_ultrasonic/joystick_interface.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic
+running install
+running install_lib
+copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/joystick_core.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic
+copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic
+copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_interface.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic
+copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/joystick_interface.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic
+byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/joystick_core.py to joystick_core.cpython-38.pyc
+byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_core.py to ultrasonic_core.cpython-38.pyc
+byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_interface.py to ultrasonic_interface.cpython-38.pyc
+byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/joystick_interface.py to joystick_interface.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info to /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info
+running install_scripts
+Installing ultrasonic_node script to /home/ros2_ws/install/pradobot_ultrasonic/lib/pradobot_ultrasonic
+writing list of installed files to '/home/ros2_ws/build/pradobot_ultrasonic/install.log'

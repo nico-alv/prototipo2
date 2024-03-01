@@ -1,0 +1,14 @@
+Server bound to 127.0.0.1:33065 (IPv4)
+Extension host agent listening on 33065
+
+[13:41:07] 
+
+
+
+
+[13:41:07] Extension host agent started.
+[13:41:07] [127.0.0.1][e2c10c34][ManagementConnection] New connection established.
+[13:41:08] [127.0.0.1][664154dd][ExtensionHostConnection] New connection established.
+[13:41:08] [127.0.0.1][664154dd][ExtensionHostConnection] <2873> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[13:46:07] New EH opened, aborting shutdown

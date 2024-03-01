@@ -1,0 +1,1851 @@
+[0.000000] (-) TimerEvent: {}
+[0.000449] (pradobot_ultrasonic) JobQueued: {'identifier': 'pradobot_ultrasonic', 'dependencies': OrderedDict()}
+[0.000766] (vectornav_msgs) JobQueued: {'identifier': 'vectornav_msgs', 'dependencies': OrderedDict()}
+[0.001317] (vectornav) JobQueued: {'identifier': 'vectornav', 'dependencies': OrderedDict([('vectornav_msgs', '/home/ros2_ws/install/vectornav_msgs')])}
+[0.001675] (vectornav_msgs) JobStarted: {'identifier': 'vectornav_msgs'}
+[0.045105] (pradobot_ultrasonic) JobStarted: {'identifier': 'pradobot_ultrasonic'}
+[0.086613] (vectornav_msgs) JobProgress: {'identifier': 'vectornav_msgs', 'progress': 'cmake'}
+[0.087101] (vectornav_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/home/ros2_ws/src/vectornav/vectornav_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vectornav_msgs'], 'cwd': '/home/ros2_ws/build/vectornav_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/build/vectornav_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[0.099470] (-) TimerEvent: {}
+[0.200217] (-) TimerEvent: {}
+[0.300980] (-) TimerEvent: {}
+[0.338174] (vectornav_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.401086] (-) TimerEvent: {}
+[0.496377] (vectornav_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.501205] (-) TimerEvent: {}
+[0.552905] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601424] (-) TimerEvent: {}
+[0.680416] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.699399] (vectornav_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.700410] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.701449] (-) TimerEvent: {}
+[0.701932] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.729329] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801619] (-) TimerEvent: {}
+[0.872572] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.892313] (vectornav_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.892975] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.894019] (vectornav_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.901677] (-) TimerEvent: {}
+[0.904667] (vectornav_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[1.001827] (-) TimerEvent: {}
+[1.102430] (-) TimerEvent: {}
+[1.203047] (-) TimerEvent: {}
+[1.303638] (-) TimerEvent: {}
+[1.404203] (-) TimerEvent: {}
+[1.504769] (-) TimerEvent: {}
+[1.605361] (-) TimerEvent: {}
+[1.705969] (-) TimerEvent: {}
+[1.806553] (-) TimerEvent: {}
+[1.907110] (-) TimerEvent: {}
+[2.007659] (-) TimerEvent: {}
+[2.108254] (-) TimerEvent: {}
+[2.124205] (pradobot_ultrasonic) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/pradobot_ultrasonic', 'build', '--build-base', '/home/ros2_ws/build/pradobot_ultrasonic/build', 'install', '--record', '/home/ros2_ws/build/pradobot_ultrasonic/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros2_ws/src/pradobot_ultrasonic', 'env': {'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/home', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/home/ros2_ws/build/pradobot_ultrasonic', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/home/ros2_ws/build/pradobot_ultrasonic/prefix_override:/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/humble/install'}, 'shell': False}
+[2.208446] (-) TimerEvent: {}
+[2.309112] (-) TimerEvent: {}
+[2.409747] (-) TimerEvent: {}
+[2.510375] (-) TimerEvent: {}
+[2.610971] (-) TimerEvent: {}
+[2.618579] (pradobot_ultrasonic) StdoutLine: {'line': b'running egg_info\n'}
+[2.654697] (pradobot_ultrasonic) StdoutLine: {'line': b'writing ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/PKG-INFO\n'}
+[2.655612] (pradobot_ultrasonic) StdoutLine: {'line': b'writing dependency_links to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/dependency_links.txt\n'}
+[2.656119] (pradobot_ultrasonic) StdoutLine: {'line': b'writing entry points to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/entry_points.txt\n'}
+[2.656530] (pradobot_ultrasonic) StdoutLine: {'line': b'writing requirements to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/requires.txt\n'}
+[2.656831] (pradobot_ultrasonic) StdoutLine: {'line': b'writing top-level names to ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/top_level.txt\n'}
+[2.711093] (-) TimerEvent: {}
+[2.731009] (pradobot_ultrasonic) StdoutLine: {'line': b"reading manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.732980] (pradobot_ultrasonic) StdoutLine: {'line': b"writing manifest file '../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info/SOURCES.txt'\n"}
+[2.733402] (pradobot_ultrasonic) StdoutLine: {'line': b'running build\n'}
+[2.733601] (pradobot_ultrasonic) StdoutLine: {'line': b'running build_py\n'}
+[2.734228] (pradobot_ultrasonic) StdoutLine: {'line': b'copying pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic\n'}
+[2.734877] (pradobot_ultrasonic) StdoutLine: {'line': b'running install\n'}
+[2.735884] (pradobot_ultrasonic) StderrLine: {'line': b'/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[2.736266] (pradobot_ultrasonic) StderrLine: {'line': b'!!\n'}
+[2.736435] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.736576] (pradobot_ultrasonic) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.736713] (pradobot_ultrasonic) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[2.736843] (pradobot_ultrasonic) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.736967] (pradobot_ultrasonic) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.737088] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.737205] (pradobot_ultrasonic) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[2.737325] (pradobot_ultrasonic) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.737444] (pradobot_ultrasonic) StderrLine: {'line': b'\n'}
+[2.737559] (pradobot_ultrasonic) StderrLine: {'line': b'!!\n'}
+[2.737674] (pradobot_ultrasonic) StderrLine: {'line': b'  self.initialize_options()\n'}
+[2.746510] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_lib\n'}
+[2.783519] (pradobot_ultrasonic) StdoutLine: {'line': b'copying /home/ros2_ws/build/pradobot_ultrasonic/build/lib/pradobot_ultrasonic/ultrasonic_core.py -> /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic\n'}
+[2.784871] (pradobot_ultrasonic) StdoutLine: {'line': b'byte-compiling /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic/ultrasonic_core.py to ultrasonic_core.cpython-38.pyc\n'}
+[2.785681] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_data\n'}
+[2.811165] (-) TimerEvent: {}
+[2.822773] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.860573] (pradobot_ultrasonic) StdoutLine: {'line': b"removing '/home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.861303] (pradobot_ultrasonic) StdoutLine: {'line': b'Copying ../../build/pradobot_ultrasonic/pradobot_ultrasonic.egg-info to /home/ros2_ws/install/pradobot_ultrasonic/lib/python3.8/site-packages/pradobot_ultrasonic-0.0.0-py3.8.egg-info\n'}
+[2.863651] (pradobot_ultrasonic) StdoutLine: {'line': b'running install_scripts\n'}
+[2.911284] (-) TimerEvent: {}
+[3.011843] (-) TimerEvent: {}
+[3.063176] (vectornav_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[3.111964] (-) TimerEvent: {}
+[3.212577] (-) TimerEvent: {}
+[3.224171] (pradobot_ultrasonic) StdoutLine: {'line': b'Installing ultrasonic_node script to /home/ros2_ws/install/pradobot_ultrasonic/lib/pradobot_ultrasonic\n'}
+[3.224956] (pradobot_ultrasonic) StdoutLine: {'line': b"writing list of installed files to '/home/ros2_ws/build/pradobot_ultrasonic/install.log'\n"}
+[3.247944] (vectornav_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)\n'}
+[3.301311] (pradobot_ultrasonic) CommandEnded: {'returncode': 0}
+[3.312656] (-) TimerEvent: {}
+[3.354646] (vectornav_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[3.355356] (pradobot_ultrasonic) JobEnded: {'identifier': 'pradobot_ultrasonic', 'rc': 0}
+[3.367476] (vectornav_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[3.391793] (vectornav_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[3.412760] (-) TimerEvent: {}
+[3.433443] (vectornav_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.488909] (vectornav_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.512862] (-) TimerEvent: {}
+[3.613474] (-) TimerEvent: {}
+[3.714157] (-) TimerEvent: {}
+[3.798806] (vectornav_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[3.814248] (-) TimerEvent: {}
+[3.821198] (vectornav_msgs) StderrLine: {'line': b'\x1b[0mGrabbing messages action/MagCal.action\x1b[0m\n'}
+[3.914460] (-) TimerEvent: {}
+[4.015196] (-) TimerEvent: {}
+[4.115864] (-) TimerEvent: {}
+[4.216606] (-) TimerEvent: {}
+[4.317179] (-) TimerEvent: {}
+[4.418062] (-) TimerEvent: {}
+[4.518625] (-) TimerEvent: {}
+[4.619172] (-) TimerEvent: {}
+[4.719829] (-) TimerEvent: {}
+[4.820328] (-) TimerEvent: {}
+[4.920931] (-) TimerEvent: {}
+[5.021669] (-) TimerEvent: {}
+[5.122289] (-) TimerEvent: {}
+[5.222899] (-) TimerEvent: {}
+[5.323467] (-) TimerEvent: {}
+[5.424027] (-) TimerEvent: {}
+[5.477956] (vectornav_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[5.524126] (-) TimerEvent: {}
+[5.624672] (-) TimerEvent: {}
+[5.725228] (-) TimerEvent: {}
+[5.825799] (-) TimerEvent: {}
+[5.926413] (-) TimerEvent: {}
+[6.026989] (-) TimerEvent: {}
+[6.127623] (-) TimerEvent: {}
+[6.228215] (-) TimerEvent: {}
+[6.328755] (-) TimerEvent: {}
+[6.429289] (-) TimerEvent: {}
+[6.529827] (-) TimerEvent: {}
+[6.630463] (-) TimerEvent: {}
+[6.731147] (-) TimerEvent: {}
+[6.831643] (-) TimerEvent: {}
+[6.932244] (-) TimerEvent: {}
+[7.032850] (-) TimerEvent: {}
+[7.133452] (-) TimerEvent: {}
+[7.234045] (-) TimerEvent: {}
+[7.334674] (-) TimerEvent: {}
+[7.435239] (-) TimerEvent: {}
+[7.535863] (-) TimerEvent: {}
+[7.636412] (-) TimerEvent: {}
+[7.736990] (-) TimerEvent: {}
+[7.837644] (-) TimerEvent: {}
+[7.938212] (-) TimerEvent: {}
+[8.038770] (-) TimerEvent: {}
+[8.139328] (-) TimerEvent: {}
+[8.239913] (-) TimerEvent: {}
+[8.333269] (vectornav_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.340014] (-) TimerEvent: {}
+[8.440567] (-) TimerEvent: {}
+[8.541029] (-) TimerEvent: {}
+[8.641653] (-) TimerEvent: {}
+[8.742444] (-) TimerEvent: {}
+[8.843163] (-) TimerEvent: {}
+[8.943821] (-) TimerEvent: {}
+[9.044484] (-) TimerEvent: {}
+[9.145037] (-) TimerEvent: {}
+[9.245819] (-) TimerEvent: {}
+[9.346492] (-) TimerEvent: {}
+[9.447185] (-) TimerEvent: {}
+[9.482239] (vectornav_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.491729] (vectornav_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[9.492264] (vectornav_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.492567] (vectornav_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.492835] (vectornav_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.493089] (vectornav_msgs) StderrLine: {'line': b'\n'}
+[9.493335] (vectornav_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.493575] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.493808] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.494039] (vectornav_msgs) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[9.494319] (vectornav_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.494566] (vectornav_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[9.536898] (vectornav_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[9.543224] (vectornav_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[9.545504] (vectornav_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[9.545790] (vectornav_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.546019] (vectornav_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.546290] (vectornav_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.546446] (vectornav_msgs) StderrLine: {'line': b'\n'}
+[9.546571] (vectornav_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.546693] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[9.546815] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.546935] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.547055] (vectornav_msgs) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[9.547170] (-) TimerEvent: {}
+[9.547454] (vectornav_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.547633] (vectornav_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[9.589289] (vectornav_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[9.589946] (vectornav_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[9.590299] (vectornav_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[9.590579] (vectornav_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[9.590836] (vectornav_msgs) StderrLine: {'line': b'\n'}
+[9.591079] (vectornav_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.591313] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[9.591545] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[9.591826] (vectornav_msgs) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[9.592062] (vectornav_msgs) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_generate_interfaces)\n'}
+[9.592291] (vectornav_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[9.592522] (vectornav_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[9.608966] (vectornav_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[9.609367] (vectornav_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.609516] (vectornav_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[9.609644] (vectornav_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[9.647292] (-) TimerEvent: {}
+[9.653892] (vectornav_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.747410] (-) TimerEvent: {}
+[9.847943] (-) TimerEvent: {}
+[9.948596] (-) TimerEvent: {}
+[10.048975] (-) TimerEvent: {}
+[10.051134] (vectornav_msgs) StdoutLine: {'line': b'-- Using numpy include directory: /usr/local/lib/python3.8/dist-packages/numpy/core/include\n'}
+[10.115039] (vectornav_msgs) StdoutLine: {'line': b'-- Configuring done (9.9s)\n'}
+[10.149089] (-) TimerEvent: {}
+[10.245268] (vectornav_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[10.249173] (-) TimerEvent: {}
+[10.251424] (vectornav_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/vectornav_msgs\n'}
+[10.286054] (vectornav_msgs) CommandEnded: {'returncode': 0}
+[10.287687] (vectornav_msgs) JobProgress: {'identifier': 'vectornav_msgs', 'progress': 'build'}
+[10.290055] (vectornav_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/ros2_ws/build/vectornav_msgs', '--', '-j6', '-l6'], 'cwd': '/home/ros2_ws/build/vectornav_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/build/vectornav_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[10.349369] (-) TimerEvent: {}
+[10.387605] (vectornav_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.397336] (vectornav_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[10.399916] (vectornav_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_vectornav_msgs\n'}
+[10.449491] (-) TimerEvent: {}
+[10.550078] (-) TimerEvent: {}
+[10.650717] (-) TimerEvent: {}
+[10.751313] (-) TimerEvent: {}
+[10.825187] (vectornav_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[10.828143] (vectornav_msgs) StdoutLine: {'line': b'creating vectornav_msgs.egg-info\n'}
+[10.851424] (-) TimerEvent: {}
+[10.865292] (vectornav_msgs) StdoutLine: {'line': b'writing vectornav_msgs.egg-info/PKG-INFO\n'}
+[10.865786] (vectornav_msgs) StdoutLine: {'line': b'writing dependency_links to vectornav_msgs.egg-info/dependency_links.txt\n'}
+[10.866281] (vectornav_msgs) StdoutLine: {'line': b'writing top-level names to vectornav_msgs.egg-info/top_level.txt\n'}
+[10.866563] (vectornav_msgs) StdoutLine: {'line': b"writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'\n"}
+[10.951509] (-) TimerEvent: {}
+[10.977251] (vectornav_msgs) StdoutLine: {'line': b"reading manifest file 'vectornav_msgs.egg-info/SOURCES.txt'\n"}
+[10.978507] (vectornav_msgs) StdoutLine: {'line': b"writing manifest file 'vectornav_msgs.egg-info/SOURCES.txt'\n"}
+[11.030941] (vectornav_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_vectornav_msgs_egg\n'}
+[11.051595] (-) TimerEvent: {}
+[11.152074] (-) TimerEvent: {}
+[11.252693] (-) TimerEvent: {}
+[11.353220] (-) TimerEvent: {}
+[11.453704] (-) TimerEvent: {}
+[11.554189] (-) TimerEvent: {}
+[11.654728] (-) TimerEvent: {}
+[11.755281] (-) TimerEvent: {}
+[11.855788] (-) TimerEvent: {}
+[11.956331] (-) TimerEvent: {}
+[12.056871] (-) TimerEvent: {}
+[12.157406] (-) TimerEvent: {}
+[12.257947] (-) TimerEvent: {}
+[12.358509] (-) TimerEvent: {}
+[12.459061] (-) TimerEvent: {}
+[12.559566] (-) TimerEvent: {}
+[12.660101] (-) TimerEvent: {}
+[12.760601] (-) TimerEvent: {}
+[12.861176] (-) TimerEvent: {}
+[12.961806] (-) TimerEvent: {}
+[13.062342] (-) TimerEvent: {}
+[13.162822] (-) TimerEvent: {}
+[13.263313] (-) TimerEvent: {}
+[13.363758] (-) TimerEvent: {}
+[13.464182] (-) TimerEvent: {}
+[13.564608] (-) TimerEvent: {}
+[13.624004] (vectornav_msgs) StdoutLine: {'line': b'[  1%] Built target vectornav_msgs__cpp\n'}
+[13.637173] (vectornav_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[13.647764] (vectornav_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.649880] (vectornav_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[13.664811] (-) TimerEvent: {}
+[13.726761] (vectornav_msgs) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/attitude_group__functions.c.o\x1b[0m\n'}
+[13.727507] (vectornav_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/dop__functions.c.o\x1b[0m\n'}
+[13.728029] (vectornav_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/common_group__functions.c.o\x1b[0m\n'}
+[13.764989] (-) TimerEvent: {}
+[13.864536] (vectornav_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/gps_group__functions.c.o\x1b[0m\n'}
+[13.865044] (-) TimerEvent: {}
+[13.881534] (vectornav_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_group__functions.c.o\x1b[0m\n'}
+[13.882045] (vectornav_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/imu_group__functions.c.o\x1b[0m\n'}
+[13.965294] (-) TimerEvent: {}
+[13.983439] (vectornav_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/ins_status__functions.c.o\x1b[0m\n'}
+[14.000314] (vectornav_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_group__functions.c.o\x1b[0m\n'}
+[14.001650] (vectornav_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_status__functions.c.o\x1b[0m\n'}
+[14.065484] (-) TimerEvent: {}
+[14.085909] (vectornav_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/time_utc__functions.c.o\x1b[0m\n'}
+[14.106885] (vectornav_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/msg/detail/vpe_status__functions.c.o\x1b[0m\n'}
+[14.123037] (vectornav_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_c.dir/rosidl_generator_c/vectornav_msgs/action/detail/mag_cal__functions.c.o\x1b[0m\n'}
+[14.165666] (-) TimerEvent: {}
+[14.266257] (-) TimerEvent: {}
+[14.366887] (-) TimerEvent: {}
+[14.411271] (vectornav_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libvectornav_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[14.467043] (-) TimerEvent: {}
+[14.468028] (vectornav_msgs) StdoutLine: {'line': b'[ 14%] Built target vectornav_msgs__rosidl_generator_c\n'}
+[14.479213] (vectornav_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.479747] (vectornav_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.480216] (vectornav_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.567205] (-) TimerEvent: {}
+[14.667821] (-) TimerEvent: {}
+[14.768502] (-) TimerEvent: {}
+[14.869207] (-) TimerEvent: {}
+[14.969844] (-) TimerEvent: {}
+[15.070452] (-) TimerEvent: {}
+[15.171077] (-) TimerEvent: {}
+[15.271705] (-) TimerEvent: {}
+[15.372297] (-) TimerEvent: {}
+[15.472937] (-) TimerEvent: {}
+[15.573530] (-) TimerEvent: {}
+[15.674192] (-) TimerEvent: {}
+[15.774818] (-) TimerEvent: {}
+[15.875430] (-) TimerEvent: {}
+[15.976058] (-) TimerEvent: {}
+[16.076665] (-) TimerEvent: {}
+[16.148723] (vectornav_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/attitude_group__type_support.cpp.o\x1b[0m\n'}
+[16.176829] (-) TimerEvent: {}
+[16.277430] (-) TimerEvent: {}
+[16.378054] (-) TimerEvent: {}
+[16.478683] (-) TimerEvent: {}
+[16.515727] (vectornav_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/attitude_group__type_support.cpp.o\x1b[0m\n'}
+[16.578850] (-) TimerEvent: {}
+[16.679487] (-) TimerEvent: {}
+[16.765065] (vectornav_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/attitude_group__type_support.cpp.o\x1b[0m\n'}
+[16.779667] (-) TimerEvent: {}
+[16.880343] (vectornav_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/common_group__type_support.cpp.o\x1b[0m\n'}
+[16.880830] (-) TimerEvent: {}
+[16.934621] (vectornav_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/attitude_group__type_support.cpp.o\x1b[0m\n'}
+[16.981052] (-) TimerEvent: {}
+[17.003833] (vectornav_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/common_group__type_support.cpp.o\x1b[0m\n'}
+[17.066818] (vectornav_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/dop__type_support.cpp.o\x1b[0m\n'}
+[17.081256] (-) TimerEvent: {}
+[17.124412] (vectornav_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/gps_group__type_support.cpp.o\x1b[0m\n'}
+[17.181469] (-) TimerEvent: {}
+[17.186954] (vectornav_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/imu_group__type_support.cpp.o\x1b[0m\n'}
+[17.248405] (vectornav_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_group__type_support.cpp.o\x1b[0m\n'}
+[17.281674] (-) TimerEvent: {}
+[17.310427] (vectornav_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/ins_status__type_support.cpp.o\x1b[0m\n'}
+[17.370936] (vectornav_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_group__type_support.cpp.o\x1b[0m\n'}
+[17.381874] (-) TimerEvent: {}
+[17.433084] (vectornav_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_status__type_support.cpp.o\x1b[0m\n'}
+[17.482092] (-) TimerEvent: {}
+[17.492545] (vectornav_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/time_utc__type_support.cpp.o\x1b[0m\n'}
+[17.507712] (vectornav_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/attitude_group__type_support.c.o\x1b[0m\n'}
+[17.554360] (vectornav_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/msg/vpe_status__type_support.cpp.o\x1b[0m\n'}
+[17.567452] (vectornav_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/dop__type_support.cpp.o\x1b[0m\n'}
+[17.582322] (-) TimerEvent: {}
+[17.594648] (vectornav_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/common_group__type_support.cpp.o\x1b[0m\n'}
+[17.617263] (vectornav_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/common_group__type_support.c.o\x1b[0m\n'}
+[17.617880] (vectornav_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/vectornav_msgs/action/mag_cal__type_support.cpp.o\x1b[0m\n'}
+[17.674857] (vectornav_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/attitude_group__type_support_c.cpp.o\x1b[0m\n'}
+[17.682550] (-) TimerEvent: {}
+[17.707481] (vectornav_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/dop__type_support.c.o\x1b[0m\n'}
+[17.747017] (vectornav_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.782738] (-) TimerEvent: {}
+[17.785002] (vectornav_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/gps_group__type_support.c.o\x1b[0m\n'}
+[17.792989] (vectornav_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/common_group__type_support.cpp.o\x1b[0m\n'}
+[17.815736] (vectornav_msgs) StdoutLine: {'line': b'[ 38%] Built target vectornav_msgs__rosidl_typesupport_c\n'}
+[17.823314] (vectornav_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/dop__type_support.cpp.o\x1b[0m\n'}
+[17.869425] (vectornav_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/imu_group__type_support.c.o\x1b[0m\n'}
+[17.882941] (-) TimerEvent: {}
+[17.957817] (vectornav_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_group__type_support.c.o\x1b[0m\n'}
+[17.983166] (-) TimerEvent: {}
+[18.040926] (vectornav_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/ins_status__type_support.c.o\x1b[0m\n'}
+[18.083394] (-) TimerEvent: {}
+[18.109221] (vectornav_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_group__type_support.c.o\x1b[0m\n'}
+[18.183474] (vectornav_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_status__type_support.c.o\x1b[0m\n'}
+[18.183996] (-) TimerEvent: {}
+[18.251429] (vectornav_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/time_utc__type_support.c.o\x1b[0m\n'}
+[18.275964] (vectornav_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/gps_group__type_support.cpp.o\x1b[0m\n'}
+[18.284249] (-) TimerEvent: {}
+[18.322422] (vectornav_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/msg/detail/vpe_status__type_support.c.o\x1b[0m\n'}
+[18.384493] (-) TimerEvent: {}
+[18.395930] (vectornav_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vectornav_msgs/action/detail/mag_cal__type_support.c.o\x1b[0m\n'}
+[18.484710] (-) TimerEvent: {}
+[18.516542] (vectornav_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking C shared library libvectornav_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.566757] (vectornav_msgs) StdoutLine: {'line': b'[ 48%] Built target vectornav_msgs__rosidl_typesupport_introspection_c\n'}
+[18.573588] (vectornav_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/gps_group__type_support.cpp.o\x1b[0m\n'}
+[18.574180] (vectornav_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/common_group__type_support_c.cpp.o\x1b[0m\n'}
+[18.584919] (-) TimerEvent: {}
+[18.685654] (-) TimerEvent: {}
+[18.687948] (vectornav_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/dop__type_support.cpp.o\x1b[0m\n'}
+[18.785891] (-) TimerEvent: {}
+[18.853233] (vectornav_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/gps_group__type_support.cpp.o\x1b[0m\n'}
+[18.884825] (vectornav_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/imu_group__type_support.cpp.o\x1b[0m\n'}
+[18.885980] (-) TimerEvent: {}
+[18.987963] (-) TimerEvent: {}
+[18.989775] (vectornav_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/imu_group__type_support.cpp.o\x1b[0m\n'}
+[19.088188] (-) TimerEvent: {}
+[19.190156] (-) TimerEvent: {}
+[19.292024] (-) TimerEvent: {}
+[19.393931] (-) TimerEvent: {}
+[19.457215] (vectornav_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/dop__type_support_c.cpp.o\x1b[0m\n'}
+[19.494194] (-) TimerEvent: {}
+[19.587969] (vectornav_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/gps_group__type_support_c.cpp.o\x1b[0m\n'}
+[19.594387] (-) TimerEvent: {}
+[19.678717] (vectornav_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_group__type_support.cpp.o\x1b[0m\n'}
+[19.694595] (-) TimerEvent: {}
+[19.715388] (vectornav_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/imu_group__type_support.cpp.o\x1b[0m\n'}
+[19.794783] (-) TimerEvent: {}
+[19.895528] (-) TimerEvent: {}
+[19.910268] (vectornav_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_group__type_support.cpp.o\x1b[0m\n'}
+[19.923939] (vectornav_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_group__type_support.cpp.o\x1b[0m\n'}
+[19.995757] (-) TimerEvent: {}
+[20.096541] (-) TimerEvent: {}
+[20.197313] (-) TimerEvent: {}
+[20.277897] (vectornav_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/imu_group__type_support_c.cpp.o\x1b[0m\n'}
+[20.297563] (-) TimerEvent: {}
+[20.389991] (vectornav_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/ins_status__type_support.cpp.o\x1b[0m\n'}
+[20.397775] (-) TimerEvent: {}
+[20.469410] (vectornav_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_group__type_support_c.cpp.o\x1b[0m\n'}
+[20.497994] (-) TimerEvent: {}
+[20.599091] (-) TimerEvent: {}
+[20.699830] (-) TimerEvent: {}
+[20.756686] (vectornav_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/ins_status__type_support.cpp.o\x1b[0m\n'}
+[20.800057] (-) TimerEvent: {}
+[20.900858] (-) TimerEvent: {}
+[20.959912] (vectornav_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/ins_status__type_support_c.cpp.o\x1b[0m\n'}
+[20.962914] (vectornav_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/ins_status__type_support.cpp.o\x1b[0m\n'}
+[21.001082] (-) TimerEvent: {}
+[21.099335] (vectornav_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_group__type_support.cpp.o\x1b[0m\n'}
+[21.101199] (-) TimerEvent: {}
+[21.147767] (vectornav_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_group__type_support_c.cpp.o\x1b[0m\n'}
+[21.201441] (-) TimerEvent: {}
+[21.302399] (-) TimerEvent: {}
+[21.344057] (vectornav_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_status__type_support_c.cpp.o\x1b[0m\n'}
+[21.402601] (-) TimerEvent: {}
+[21.503330] (-) TimerEvent: {}
+[21.604132] (-) TimerEvent: {}
+[21.705006] (-) TimerEvent: {}
+[21.774056] (vectornav_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_group__type_support.cpp.o\x1b[0m\n'}
+[21.805260] (-) TimerEvent: {}
+[21.818439] (vectornav_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_status__type_support.cpp.o\x1b[0m\n'}
+[21.834446] (vectornav_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/time_utc__type_support_c.cpp.o\x1b[0m\n'}
+[21.905487] (-) TimerEvent: {}
+[21.995551] (vectornav_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_group__type_support.cpp.o\x1b[0m\n'}
+[22.005704] (-) TimerEvent: {}
+[22.022186] (vectornav_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/msg/detail/vpe_status__type_support_c.cpp.o\x1b[0m\n'}
+[22.105934] (-) TimerEvent: {}
+[22.167855] (vectornav_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vectornav_msgs/action/detail/mag_cal__type_support_c.cpp.o\x1b[0m\n'}
+[22.206175] (-) TimerEvent: {}
+[22.306884] (-) TimerEvent: {}
+[22.407645] (-) TimerEvent: {}
+[22.497689] (vectornav_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/time_utc__type_support.cpp.o\x1b[0m\n'}
+[22.507849] (-) TimerEvent: {}
+[22.608617] (-) TimerEvent: {}
+[22.702370] (vectornav_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/msg/vpe_status__type_support.cpp.o\x1b[0m\n'}
+[22.708820] (-) TimerEvent: {}
+[22.809547] (-) TimerEvent: {}
+[22.819539] (vectornav_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_status__type_support.cpp.o\x1b[0m\n'}
+[22.896585] (vectornav_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/time_utc__type_support.cpp.o\x1b[0m\n'}
+[22.909778] (-) TimerEvent: {}
+[23.011646] (-) TimerEvent: {}
+[23.055784] (vectornav_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_status__type_support.cpp.o\x1b[0m\n'}
+[23.111855] (-) TimerEvent: {}
+[23.132132] (vectornav_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[23.170051] (vectornav_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vectornav_msgs/action/mag_cal__type_support.cpp.o\x1b[0m\n'}
+[23.212078] (-) TimerEvent: {}
+[23.281237] (vectornav_msgs) StdoutLine: {'line': b'[ 76%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c\n'}
+[23.287797] (vectornav_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/time_utc__type_support.cpp.o\x1b[0m\n'}
+[23.312270] (-) TimerEvent: {}
+[23.399983] (vectornav_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/msg/detail/dds_fastrtps/vpe_status__type_support.cpp.o\x1b[0m\n'}
+[23.412507] (-) TimerEvent: {}
+[23.513247] (-) TimerEvent: {}
+[23.615421] (-) TimerEvent: {}
+[23.717634] (-) TimerEvent: {}
+[23.819846] (-) TimerEvent: {}
+[23.832851] (vectornav_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/msg/detail/vpe_status__type_support.cpp.o\x1b[0m\n'}
+[23.910555] (vectornav_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vectornav_msgs/action/detail/mag_cal__type_support.cpp.o\x1b[0m\n'}
+[23.920082] (-) TimerEvent: {}
+[24.022275] (-) TimerEvent: {}
+[24.083590] (vectornav_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vectornav_msgs/action/detail/dds_fastrtps/mag_cal__type_support.cpp.o\x1b[0m\n'}
+[24.122474] (-) TimerEvent: {}
+[24.223213] (-) TimerEvent: {}
+[24.324170] (-) TimerEvent: {}
+[24.369092] (vectornav_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[24.424356] (-) TimerEvent: {}
+[24.427014] (vectornav_msgs) StdoutLine: {'line': b'[ 81%] Built target vectornav_msgs__rosidl_typesupport_cpp\n'}
+[24.524442] (-) TimerEvent: {}
+[24.625013] (-) TimerEvent: {}
+[24.725504] (-) TimerEvent: {}
+[24.826063] (-) TimerEvent: {}
+[24.926778] (-) TimerEvent: {}
+[25.027319] (-) TimerEvent: {}
+[25.127982] (-) TimerEvent: {}
+[25.228471] (-) TimerEvent: {}
+[25.329155] (-) TimerEvent: {}
+[25.429610] (-) TimerEvent: {}
+[25.477589] (vectornav_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[25.498431] (vectornav_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[25.529800] (-) TimerEvent: {}
+[25.611111] (vectornav_msgs) StdoutLine: {'line': b'[ 83%] Built target vectornav_msgs__rosidl_typesupport_introspection_cpp\n'}
+[25.629960] (-) TimerEvent: {}
+[25.634454] (vectornav_msgs) StdoutLine: {'line': b'[ 83%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[25.652658] (vectornav_msgs) StdoutLine: {'line': b'[ 83%] Built target vectornav_msgs\n'}
+[25.671103] (vectornav_msgs) StdoutLine: {'line': b'[ 84%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[25.730087] (-) TimerEvent: {}
+[25.830735] (-) TimerEvent: {}
+[25.931262] (-) TimerEvent: {}
+[26.031746] (-) TimerEvent: {}
+[26.132264] (-) TimerEvent: {}
+[26.232740] (-) TimerEvent: {}
+[26.333188] (-) TimerEvent: {}
+[26.433680] (-) TimerEvent: {}
+[26.534178] (-) TimerEvent: {}
+[26.634652] (-) TimerEvent: {}
+[26.735118] (-) TimerEvent: {}
+[26.835579] (-) TimerEvent: {}
+[26.936048] (-) TimerEvent: {}
+[27.036531] (-) TimerEvent: {}
+[27.137091] (-) TimerEvent: {}
+[27.237602] (-) TimerEvent: {}
+[27.338147] (-) TimerEvent: {}
+[27.438724] (-) TimerEvent: {}
+[27.539250] (-) TimerEvent: {}
+[27.639768] (-) TimerEvent: {}
+[27.740309] (-) TimerEvent: {}
+[27.840803] (-) TimerEvent: {}
+[27.941275] (-) TimerEvent: {}
+[28.041744] (-) TimerEvent: {}
+[28.142216] (-) TimerEvent: {}
+[28.242695] (-) TimerEvent: {}
+[28.343160] (-) TimerEvent: {}
+[28.443620] (-) TimerEvent: {}
+[28.544069] (-) TimerEvent: {}
+[28.644588] (-) TimerEvent: {}
+[28.745124] (-) TimerEvent: {}
+[28.845658] (-) TimerEvent: {}
+[28.946233] (-) TimerEvent: {}
+[29.046830] (-) TimerEvent: {}
+[29.147347] (-) TimerEvent: {}
+[29.247867] (-) TimerEvent: {}
+[29.348390] (-) TimerEvent: {}
+[29.448883] (-) TimerEvent: {}
+[29.549350] (-) TimerEvent: {}
+[29.649834] (-) TimerEvent: {}
+[29.750333] (-) TimerEvent: {}
+[29.850869] (-) TimerEvent: {}
+[29.951417] (-) TimerEvent: {}
+[30.051872] (-) TimerEvent: {}
+[30.152318] (-) TimerEvent: {}
+[30.252755] (-) TimerEvent: {}
+[30.353248] (-) TimerEvent: {}
+[30.453705] (-) TimerEvent: {}
+[30.554184] (-) TimerEvent: {}
+[30.654622] (-) TimerEvent: {}
+[30.755064] (-) TimerEvent: {}
+[30.855496] (-) TimerEvent: {}
+[30.955921] (-) TimerEvent: {}
+[31.056337] (-) TimerEvent: {}
+[31.156765] (-) TimerEvent: {}
+[31.257190] (-) TimerEvent: {}
+[31.357619] (-) TimerEvent: {}
+[31.458059] (-) TimerEvent: {}
+[31.558553] (-) TimerEvent: {}
+[31.658994] (-) TimerEvent: {}
+[31.704747] (vectornav_msgs) StdoutLine: {'line': b'[ 84%] Built target vectornav_msgs__py\n'}
+[31.722367] (vectornav_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_attitude_group_s.c.o\x1b[0m\n'}
+[31.722860] (vectornav_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_common_group_s.c.o\x1b[0m\n'}
+[31.723574] (vectornav_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_imu_group_s.c.o\x1b[0m\n'}
+[31.723921] (vectornav_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_group_s.c.o\x1b[0m\n'}
+[31.724262] (vectornav_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_dop_s.c.o\x1b[0m\n'}
+[31.724442] (vectornav_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_gps_group_s.c.o\x1b[0m\n'}
+[31.759190] (-) TimerEvent: {}
+[31.859898] (-) TimerEvent: {}
+[31.960634] (-) TimerEvent: {}
+[32.045436] (vectornav_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_ins_status_s.c.o\x1b[0m\n'}
+[32.060200] (vectornav_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_group_s.c.o\x1b[0m\n'}
+[32.060719] (-) TimerEvent: {}
+[32.065078] (vectornav_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_status_s.c.o\x1b[0m\n'}
+[32.066909] (vectornav_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_time_utc_s.c.o\x1b[0m\n'}
+[32.070729] (vectornav_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/msg/_vpe_status_s.c.o\x1b[0m\n'}
+[32.071237] (vectornav_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_generator_py.dir/rosidl_generator_py/vectornav_msgs/action/_mag_cal_s.c.o\x1b[0m\n'}
+[32.160956] (-) TimerEvent: {}
+[32.261724] (-) TimerEvent: {}
+[32.362507] (-) TimerEvent: {}
+[32.440731] (vectornav_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[32.462641] (-) TimerEvent: {}
+[32.505909] (vectornav_msgs) StdoutLine: {'line': b'[ 95%] Built target vectornav_msgs__rosidl_generator_py\n'}
+[32.524421] (vectornav_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.525087] (vectornav_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[32.525347] (vectornav_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.562802] (-) TimerEvent: {}
+[32.663485] (-) TimerEvent: {}
+[32.764157] (-) TimerEvent: {}
+[32.864883] (-) TimerEvent: {}
+[32.881011] (vectornav_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.884625] (vectornav_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.892390] (vectornav_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[32.953937] (vectornav_msgs) StdoutLine: {'line': b'[100%] Built target vectornav_msgs__rosidl_typesupport_c__pyext\n'}
+[32.960620] (vectornav_msgs) StdoutLine: {'line': b'[100%] Built target vectornav_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[32.962056] (vectornav_msgs) StdoutLine: {'line': b'[100%] Built target vectornav_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[32.964979] (-) TimerEvent: {}
+[32.983987] (vectornav_msgs) CommandEnded: {'returncode': 0}
+[33.065189] (-) TimerEvent: {}
+[33.166016] (-) TimerEvent: {}
+[33.266877] (-) TimerEvent: {}
+[33.367748] (-) TimerEvent: {}
+[33.412340] (vectornav_msgs) JobProgress: {'identifier': 'vectornav_msgs', 'progress': 'install'}
+[33.468010] (-) TimerEvent: {}
+[33.479476] (vectornav_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/ros2_ws/build/vectornav_msgs'], 'cwd': '/home/ros2_ws/build/vectornav_msgs', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/build/vectornav_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install')]), 'shell': False}
+[33.538214] (vectornav_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.538937] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/rosidl_interfaces/vectornav_msgs\n'}
+[33.539367] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[33.539708] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[33.540131] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[33.540518] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.h\n'}
+[33.540896] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__functions.c\n'}
+[33.541261] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.h\n'}
+[33.541580] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.h\n'}
+[33.541931] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.c\n'}
+[33.542270] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.h\n'}
+[33.542629] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.h\n'}
+[33.542945] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.h\n'}
+[33.543279] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.h\n'}
+[33.543583] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__functions.c\n'}
+[33.543926] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.c\n'}
+[33.544228] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.h\n'}
+[33.544566] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.h\n'}
+[33.544912] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__functions.c\n'}
+[33.545220] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.h\n'}
+[33.545524] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.h\n'}
+[33.545861] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.h\n'}
+[33.546208] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.h\n'}
+[33.546569] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.h\n'}
+[33.546881] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.h\n'}
+[33.547228] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.h\n'}
+[33.547538] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.h\n'}
+[33.547881] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.h\n'}
+[33.548217] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.h\n'}
+[33.548570] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.h\n'}
+[33.548877] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__functions.h\n'}
+[33.549227] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.h\n'}
+[33.549551] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__functions.c\n'}
+[33.549855] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__functions.c\n'}
+[33.550234] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.h\n'}
+[33.550568] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.c\n'}
+[33.550874] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.h\n'}
+[33.551227] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__functions.c\n'}
+[33.551582] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.h\n'}
+[33.551886] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.h\n'}
+[33.552185] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.h\n'}
+[33.552474] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.h\n'}
+[33.552767] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.h\n'}
+[33.553066] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__functions.h\n'}
+[33.553402] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__functions.c\n'}
+[33.553696] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.h\n'}
+[33.553947] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__functions.c\n'}
+[33.554218] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.h\n'}
+[33.554542] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__functions.h\n'}
+[33.554964] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.h\n'}
+[33.555273] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.555626] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.h\n'}
+[33.555961] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.h\n'}
+[33.556260] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.h\n'}
+[33.556540] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.h\n'}
+[33.556889] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.h\n'}
+[33.557189] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.h\n'}
+[33.557620] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.h\n'}
+[33.557867] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.h\n'}
+[33.558188] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.h\n'}
+[33.558436] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.h\n'}
+[33.558668] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[33.559061] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[33.559421] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.h\n'}
+[33.559728] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.h\n'}
+[33.560031] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__functions.c\n'}
+[33.560381] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.h\n'}
+[33.560709] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.h\n'}
+[33.561022] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.sh\n'}
+[33.561318] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/library_path.dsv\n'}
+[33.561649] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so\n'}
+[33.561951] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_c.so" to ""\n'}
+[33.562274] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[33.562616] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[33.562917] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[33.563215] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_c.h\n'}
+[33.563578] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_c.h\n'}
+[33.563885] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_c.h\n'}
+[33.564230] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_c.h\n'}
+[33.564534] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_c.h\n'}
+[33.564882] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_c.h\n'}
+[33.565188] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_c.h\n'}
+[33.565470] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_c.h\n'}
+[33.565848] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_c.h\n'}
+[33.566177] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_c.h\n'}
+[33.566524] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_c.h\n'}
+[33.566828] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.567173] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[33.567506] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[33.567810] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_c.h\n'}
+[33.568133] (-) TimerEvent: {}
+[33.568633] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[33.569155] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.569487] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[33.569801] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[33.570133] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[33.570516] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__struct.hpp\n'}
+[33.570865] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__traits.hpp\n'}
+[33.571168] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__builder.hpp\n'}
+[33.571477] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__traits.hpp\n'}
+[33.571788] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__builder.hpp\n'}
+[33.572121] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__traits.hpp\n'}
+[33.572429] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__traits.hpp\n'}
+[33.572763] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__struct.hpp\n'}
+[33.573067] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__struct.hpp\n'}
+[33.573404] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__traits.hpp\n'}
+[33.573700] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__struct.hpp\n'}
+[33.573983] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__builder.hpp\n'}
+[33.574282] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__traits.hpp\n'}
+[33.574529] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__traits.hpp\n'}
+[33.574760] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__struct.hpp\n'}
+[33.575289] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__builder.hpp\n'}
+[33.575643] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__struct.hpp\n'}
+[33.576007] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__struct.hpp\n'}
+[33.576303] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__builder.hpp\n'}
+[33.576640] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__traits.hpp\n'}
+[33.576955] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__builder.hpp\n'}
+[33.577287] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__builder.hpp\n'}
+[33.577619] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__struct.hpp\n'}
+[33.577919] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__struct.hpp\n'}
+[33.578214] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__struct.hpp\n'}
+[33.578496] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__builder.hpp\n'}
+[33.578755] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__traits.hpp\n'}
+[33.579054] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__traits.hpp\n'}
+[33.579308] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__builder.hpp\n'}
+[33.579568] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__builder.hpp\n'}
+[33.579827] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__struct.hpp\n'}
+[33.580080] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__builder.hpp\n'}
+[33.580371] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__traits.hpp\n'}
+[33.580656] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_status.hpp\n'}
+[33.580933] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_group.hpp\n'}
+[33.581219] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/imu_group.hpp\n'}
+[33.581483] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/dop.hpp\n'}
+[33.581690] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/common_group.hpp\n'}
+[33.581883] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/ins_group.hpp\n'}
+[33.582157] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_status.hpp\n'}
+[33.582379] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/gps_group.hpp\n'}
+[33.582626] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/vpe_status.hpp\n'}
+[33.582833] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/attitude_group.hpp\n'}
+[33.583016] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/time_utc.hpp\n'}
+[33.583345] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[33.583587] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[33.583826] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__builder.hpp\n'}
+[33.584062] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__traits.hpp\n'}
+[33.584298] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__struct.hpp\n'}
+[33.584535] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/mag_cal.hpp\n'}
+[33.584772] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[33.585006] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[33.585239] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[33.585513] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.585742] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.585930] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.586237] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.586500] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.586739] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.586984] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.587232] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.587473] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dds_fastrtps\n'}
+[33.587707] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.587936] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.588185] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.588422] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.588712] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[33.588937] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[33.589131] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.589353] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/dds_fastrtps\n'}
+[33.589525] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.589696] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.589863] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[33.590025] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[33.590285] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[33.590455] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.c\n'}
+[33.590669] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.c\n'}
+[33.590828] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.c\n'}
+[33.590982] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_c.h\n'}
+[33.591194] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.c\n'}
+[33.591410] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.c\n'}
+[33.591626] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_c.h\n'}
+[33.591840] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_c.h\n'}
+[33.592054] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_c.h\n'}
+[33.592270] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_c.h\n'}
+[33.592483] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.c\n'}
+[33.592694] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.c\n'}
+[33.592922] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.c\n'}
+[33.593124] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.c\n'}
+[33.593287] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.c\n'}
+[33.593492] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_c.h\n'}
+[33.593659] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_c.h\n'}
+[33.593873] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_c.h\n'}
+[33.594082] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_c.h\n'}
+[33.594335] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.c\n'}
+[33.594544] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_c.h\n'}
+[33.594751] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_c.h\n'}
+[33.594958] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.595167] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[33.595379] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[33.595535] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.c\n'}
+[33.595738] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_c.h\n'}
+[33.595942] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so\n'}
+[33.596149] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.596345] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so\n'}
+[33.596501] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_c.so" to ""\n'}
+[33.596703] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs\n'}
+[33.596906] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg\n'}
+[33.597111] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail\n'}
+[33.597330] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.597527] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__type_support.cpp\n'}
+[33.597721] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__type_support.cpp\n'}
+[33.597883] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__type_support.cpp\n'}
+[33.598085] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.598305] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.598502] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.598692] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.598842] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.599037] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__type_support.cpp\n'}
+[33.599220] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__type_support.cpp\n'}
+[33.599407] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_utc__type_support.cpp\n'}
+[33.599553] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.599738] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.599903] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/attitude_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.600050] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/gps_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.600249] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/vpe_status__type_support.cpp\n'}
+[33.600449] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/imu_group__type_support.cpp\n'}
+[33.600644] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/ins_group__type_support.cpp\n'}
+[33.600841] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/common_group__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.600985] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/dop__type_support.cpp\n'}
+[33.601190] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/msg/detail/time_status__type_support.cpp\n'}
+[33.601386] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action\n'}
+[33.601526] (vectornav_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail\n'}
+[33.601713] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.601852] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/include/vectornav_msgs/vectornav_msgs/action/detail/mag_cal__type_support.cpp\n'}
+[33.602031] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[33.602205] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.602345] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so\n'}
+[33.602477] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[33.602608] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.sh\n'}
+[33.602737] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/pythonpath.dsv\n'}
+[33.602867] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info\n'}
+[33.602997] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/PKG-INFO\n'}
+[33.603126] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/top_level.txt\n'}
+[33.603254] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/dependency_links.txt\n'}
+[33.603381] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs-3.0.0-py3.8.egg-info/SOURCES.txt\n'}
+[33.603509] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs\n'}
+[33.603638] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[33.603769] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[33.603903] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg\n'}
+[33.604032] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group.py\n'}
+[33.604177] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc_s.c\n'}
+[33.604308] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop.py\n'}
+[33.604467] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status.py\n'}
+[33.604600] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status.py\n'}
+[33.604729] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group_s.c\n'}
+[33.604857] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group.py\n'}
+[33.604986] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop_s.c\n'}
+[33.605114] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group.py\n'}
+[33.605241] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group_s.c\n'}
+[33.605370] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group.py\n'}
+[33.605496] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group_s.c\n'}
+[33.605624] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status_s.c\n'}
+[33.605752] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group_s.c\n'}
+[33.605881] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/__init__.py\n'}
+[33.606024] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status_s.c\n'}
+[33.606203] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group.py\n'}
+[33.606331] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status_s.c\n'}
+[33.606449] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group_s.c\n'}
+[33.606568] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group.py\n'}
+[33.606685] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status.py\n'}
+[33.606803] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group_s.c\n'}
+[33.606921] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc.py\n'}
+[33.607040] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[33.607166] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/libvectornav_msgs__rosidl_generator_py.so\n'}
+[33.607283] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py\n'}
+[33.607398] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action\n'}
+[33.607535] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/_mag_cal.py\n'}
+[33.607654] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/_mag_cal_s.c\n'}
+[33.607770] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/__init__.py\n'}
+[33.607886] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[33.608004] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[33.608119] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/_vectornav_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[33.668273] (-) TimerEvent: {}
+[33.706301] (vectornav_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs'...\n"}
+[33.706764] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/__init__.py'...\n"}
+[33.706976] (vectornav_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action'...\n"}
+[33.707123] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/__init__.py'...\n"}
+[33.707260] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/action/_mag_cal.py'...\n"}
+[33.707387] (vectornav_msgs) StdoutLine: {'line': b"Listing '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg'...\n"}
+[33.707512] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/__init__.py'...\n"}
+[33.707634] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_attitude_group.py'...\n"}
+[33.707758] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_common_group.py'...\n"}
+[33.707877] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_dop.py'...\n"}
+[33.707993] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_gps_group.py'...\n"}
+[33.708110] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_imu_group.py'...\n"}
+[33.708226] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_group.py'...\n"}
+[33.708341] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_ins_status.py'...\n"}
+[33.708457] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_group.py'...\n"}
+[33.708573] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_status.py'...\n"}
+[33.708689] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_time_utc.py'...\n"}
+[33.708831] (vectornav_msgs) StdoutLine: {'line': b"Compiling '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/msg/_vpe_status.py'...\n"}
+[33.717658] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[33.718507] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[33.719014] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[33.719571] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[33.720077] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[33.720413] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages/vectornav_msgs/vectornav_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""\n'}
+[33.720604] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so\n'}
+[33.721380] (vectornav_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav_msgs/lib/libvectornav_msgs__rosidl_generator_py.so" to ""\n'}
+[33.721614] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.idl\n'}
+[33.721918] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.idl\n'}
+[33.722244] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.idl\n'}
+[33.722513] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.idl\n'}
+[33.722808] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.idl\n'}
+[33.723103] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.idl\n'}
+[33.723371] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.idl\n'}
+[33.723667] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.idl\n'}
+[33.723951] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.idl\n'}
+[33.724239] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.idl\n'}
+[33.724511] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.idl\n'}
+[33.724865] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.idl\n'}
+[33.725159] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/AttitudeGroup.msg\n'}
+[33.725437] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/CommonGroup.msg\n'}
+[33.725721] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/DOP.msg\n'}
+[33.726001] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/GpsGroup.msg\n'}
+[33.726303] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/ImuGroup.msg\n'}
+[33.726591] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsGroup.msg\n'}
+[33.726855] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/InsStatus.msg\n'}
+[33.727133] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeGroup.msg\n'}
+[33.727424] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeStatus.msg\n'}
+[33.727706] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/TimeUTC.msg\n'}
+[33.727968] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/msg/VpeStatus.msg\n'}
+[33.728249] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/action/MagCal.action\n'}
+[33.728626] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/package_run_dependencies/vectornav_msgs\n'}
+[33.729007] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/parent_prefix_path/vectornav_msgs\n'}
+[33.729329] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.sh\n'}
+[33.729645] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/ament_prefix_path.dsv\n'}
+[33.729948] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.sh\n'}
+[33.730265] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/environment/path.dsv\n'}
+[33.730534] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.bash\n'}
+[33.730814] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.sh\n'}
+[33.731104] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.zsh\n'}
+[33.731396] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/local_setup.dsv\n'}
+[33.731667] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.dsv\n'}
+[33.732038] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/ament_index/resource_index/packages/vectornav_msgs\n'}
+[33.732433] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport.cmake\n'}
+[33.732766] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[33.733084] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[33.733399] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[33.733743] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_cppExport.cmake\n'}
+[33.734080] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[33.734401] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[33.734719] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.735025] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[33.735353] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport.cmake\n'}
+[33.735647] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[33.735977] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.736294] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[33.736624] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[33.736933] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[33.737243] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport.cmake\n'}
+[33.737547] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/export_vectornav_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[33.737836] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[33.738165] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.738464] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.738748] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.739043] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.739316] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.739601] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.739890] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig.cmake\n'}
+[33.740112] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake/vectornav_msgsConfig-version.cmake\n'}
+[33.740378] (vectornav_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/package.xml\n'}
+[33.753280] (vectornav_msgs) CommandEnded: {'returncode': 0}
+[33.770554] (-) TimerEvent: {}
+[33.871966] (-) TimerEvent: {}
+[33.972660] (-) TimerEvent: {}
+[34.073524] (-) TimerEvent: {}
+[34.174064] (-) TimerEvent: {}
+[34.274637] (-) TimerEvent: {}
+[34.317737] (vectornav_msgs) JobEnded: {'identifier': 'vectornav_msgs', 'rc': 0}
+[34.329123] (vectornav) JobStarted: {'identifier': 'vectornav'}
+[34.356047] (vectornav) JobProgress: {'identifier': 'vectornav', 'progress': 'cmake'}
+[34.356546] (vectornav) Command: {'cmd': ['/usr/local/bin/cmake', '/home/ros2_ws/src/vectornav/vectornav', '-DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vectornav'], 'cwd': '/home/ros2_ws/build/vectornav', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/vectornav_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/build/vectornav'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/vectornav_msgs:/opt/ros/humble/install')]), 'shell': False}
+[34.374745] (-) TimerEvent: {}
+[34.475234] (-) TimerEvent: {}
+[34.501660] (vectornav) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[34.575423] (-) TimerEvent: {}
+[34.613028] (vectornav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[34.663051] (vectornav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[34.675501] (-) TimerEvent: {}
+[34.776025] (-) TimerEvent: {}
+[34.785727] (vectornav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[34.815415] (vectornav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[34.816181] (vectornav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[34.817193] (vectornav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[34.841230] (vectornav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[34.876141] (-) TimerEvent: {}
+[34.976862] (-) TimerEvent: {}
+[34.977729] (vectornav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[35.011688] (vectornav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[35.012507] (vectornav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[35.013772] (vectornav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[35.020085] (vectornav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[35.076989] (-) TimerEvent: {}
+[35.177633] (-) TimerEvent: {}
+[35.278191] (-) TimerEvent: {}
+[35.378764] (-) TimerEvent: {}
+[35.479476] (-) TimerEvent: {}
+[35.580210] (-) TimerEvent: {}
+[35.680837] (-) TimerEvent: {}
+[35.781598] (-) TimerEvent: {}
+[35.882350] (-) TimerEvent: {}
+[35.982902] (-) TimerEvent: {}
+[36.083468] (-) TimerEvent: {}
+[36.184047] (-) TimerEvent: {}
+[36.284774] (-) TimerEvent: {}
+[36.385489] (-) TimerEvent: {}
+[36.486207] (-) TimerEvent: {}
+[36.586761] (-) TimerEvent: {}
+[36.687381] (-) TimerEvent: {}
+[36.788077] (-) TimerEvent: {}
+[36.888623] (-) TimerEvent: {}
+[36.989153] (-) TimerEvent: {}
+[37.089715] (-) TimerEvent: {}
+[37.183816] (vectornav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[37.189817] (-) TimerEvent: {}
+[37.290389] (-) TimerEvent: {}
+[37.373168] (vectornav) StdoutLine: {'line': b'-- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[37.390488] (-) TimerEvent: {}
+[37.476760] (vectornav) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[37.487746] (vectornav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[37.490561] (-) TimerEvent: {}
+[37.508096] (vectornav) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[37.543251] (vectornav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[37.590665] (-) TimerEvent: {}
+[37.592569] (vectornav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[37.690772] (-) TimerEvent: {}
+[37.778294] (vectornav) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[37.785209] (vectornav) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[37.790851] (-) TimerEvent: {}
+[37.881811] (vectornav) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[37.890970] (-) TimerEvent: {}
+[37.907755] (vectornav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[37.991181] (-) TimerEvent: {}
+[38.027499] (vectornav) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[38.028207] (vectornav) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[38.091361] (-) TimerEvent: {}
+[38.132854] (vectornav) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[38.133575] (vectornav) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[38.191551] (-) TimerEvent: {}
+[38.252989] (vectornav) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[38.256660] (vectornav) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[38.291641] (-) TimerEvent: {}
+[38.392120] (-) TimerEvent: {}
+[38.492548] (-) TimerEvent: {}
+[38.593145] (-) TimerEvent: {}
+[38.670907] (vectornav) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.5 (/opt/ros/humble/install/share/rclcpp_action/cmake)\n'}
+[38.693240] (-) TimerEvent: {}
+[38.793624] (-) TimerEvent: {}
+[38.894197] (-) TimerEvent: {}
+[38.905358] (vectornav) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[38.994343] (-) TimerEvent: {}
+[39.094776] (-) TimerEvent: {}
+[39.195172] (-) TimerEvent: {}
+[39.212572] (vectornav) StdoutLine: {'line': b'-- Found vectornav_msgs: 3.0.0 (/home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake)\n'}
+[39.295469] (-) TimerEvent: {}
+[39.395875] (-) TimerEvent: {}
+[39.415187] (vectornav) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)\n'}
+[39.442592] (vectornav) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)\n'}
+[39.445836] (vectornav) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[39.446124] (vectornav) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[39.495977] (-) TimerEvent: {}
+[39.596392] (-) TimerEvent: {}
+[39.696980] (-) TimerEvent: {}
+[39.797393] (-) TimerEvent: {}
+[39.897781] (-) TimerEvent: {}
+[39.998339] (-) TimerEvent: {}
+[40.081370] (vectornav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[40.098449] (-) TimerEvent: {}
+[40.199139] (-) TimerEvent: {}
+[40.255789] (vectornav) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[40.256394] (vectornav) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[40.256562] (vectornav) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[40.263181] (vectornav) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[40.263349] (vectornav) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[40.265144] (vectornav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[40.267714] (vectornav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[40.269556] (vectornav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[40.276400] (vectornav) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[40.276611] (vectornav) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[40.278310] (vectornav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[40.282792] (vectornav) StdoutLine: {'line': b'-- Configuring done (5.9s)\n'}
+[40.299208] (-) TimerEvent: {}
+[40.335062] (vectornav) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[40.339532] (vectornav) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_ws/build/vectornav\n'}
+[40.374500] (vectornav) CommandEnded: {'returncode': 0}
+[40.376250] (vectornav) JobProgress: {'identifier': 'vectornav', 'progress': 'build'}
+[40.376928] (vectornav) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/ros2_ws/build/vectornav', '--', '-j6', '-l6'], 'cwd': '/home/ros2_ws/build/vectornav', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/vectornav_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/build/vectornav'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/vectornav_msgs:/opt/ros/humble/install')]), 'shell': False}
+[40.399383] (-) TimerEvent: {}
+[40.480265] (vectornav) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/attitude.cpp.o\x1b[0m\n'}
+[40.480803] (vectornav) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/vn_sensor_msgs.dir/src/vn_sensor_msgs.cc.o\x1b[0m\n'}
+[40.481377] (vectornav) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/conversions.cpp.o\x1b[0m\n'}
+[40.481563] (vectornav) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/compositedata.cpp.o\x1b[0m\n'}
+[40.481720] (vectornav) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/criticalsection.cpp.o\x1b[0m\n'}
+[40.481860] (vectornav) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/dllvalidator.cpp.o\x1b[0m\n'}
+[40.499612] (-) TimerEvent: {}
+[40.520207] (vectornav) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/error_detection.cpp.o\x1b[0m\n'}
+[40.599827] (-) TimerEvent: {}
+[40.701893] (-) TimerEvent: {}
+[40.804147] (-) TimerEvent: {}
+[40.865083] (vectornav) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/event.cpp.o\x1b[0m\n'}
+[40.904364] (-) TimerEvent: {}
+[41.006003] (-) TimerEvent: {}
+[41.049164] (vectornav) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/ezasyncdata.cpp.o\x1b[0m\n'}
+[41.106229] (-) TimerEvent: {}
+[41.155449] (vectornav) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/memoryport.cpp.o\x1b[0m\n'}
+[41.183054] (vectornav) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/packet.cpp.o\x1b[0m\n'}
+[41.206429] (-) TimerEvent: {}
+[41.255297] (vectornav) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/packetfinder.cpp.o\x1b[0m\n'}
+[41.306628] (-) TimerEvent: {}
+[41.407327] (-) TimerEvent: {}
+[41.508052] (-) TimerEvent: {}
+[41.608826] (-) TimerEvent: {}
+[41.629570] (vectornav) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/port.cpp.o\x1b[0m\n'}
+[41.681077] (vectornav) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/position.cpp.o\x1b[0m\n'}
+[41.709048] (-) TimerEvent: {}
+[41.811139] (-) TimerEvent: {}
+[41.897946] (vectornav) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/rtcmlistener.cpp.o\x1b[0m\n'}
+[41.911335] (-) TimerEvent: {}
+[41.953715] (vectornav) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/rtcmmessage.cpp.o\x1b[0m\n'}
+[42.011551] (-) TimerEvent: {}
+[42.113702] (-) TimerEvent: {}
+[42.215797] (-) TimerEvent: {}
+[42.313648] (vectornav) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/searcher.cpp.o\x1b[0m\n'}
+[42.315929] (-) TimerEvent: {}
+[42.345126] (vectornav) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/sensors.cpp.o\x1b[0m\n'}
+[42.361817] (vectornav) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/serialport.cpp.o\x1b[0m\n'}
+[42.416172] (-) TimerEvent: {}
+[42.451178] (vectornav) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/thread.cpp.o\x1b[0m\n'}
+[42.516390] (-) TimerEvent: {}
+[42.617197] (-) TimerEvent: {}
+[42.719361] (-) TimerEvent: {}
+[42.723343] (vectornav) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/types.cpp.o\x1b[0m\n'}
+[42.781165] (vectornav) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/util.cpp.o\x1b[0m\n'}
+[42.819570] (-) TimerEvent: {}
+[42.854747] (vectornav) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/utilities.cpp.o\x1b[0m\n'}
+[42.919772] (-) TimerEvent: {}
+[43.021571] (-) TimerEvent: {}
+[43.122308] (-) TimerEvent: {}
+[43.223022] (-) TimerEvent: {}
+[43.252698] (vectornav) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/vntime.cpp.o\x1b[0m\n'}
+[43.323221] (-) TimerEvent: {}
+[43.423960] (-) TimerEvent: {}
+[43.526290] (-) TimerEvent: {}
+[43.627008] (-) TimerEvent: {}
+[43.727666] (-) TimerEvent: {}
+[43.828319] (-) TimerEvent: {}
+[43.928970] (-) TimerEvent: {}
+[44.029646] (-) TimerEvent: {}
+[44.071149] (vectornav) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library libvncxx.so\x1b[0m\n'}
+[44.129816] (-) TimerEvent: {}
+[44.230550] (-) TimerEvent: {}
+[44.251965] (vectornav) StdoutLine: {'line': b'[ 89%] Built target vncxx\n'}
+[44.268675] (vectornav) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/vectornav.dir/src/vectornav.cc.o\x1b[0m\n'}
+[44.330707] (-) TimerEvent: {}
+[44.431361] (-) TimerEvent: {}
+[44.532021] (-) TimerEvent: {}
+[44.632685] (-) TimerEvent: {}
+[44.733339] (-) TimerEvent: {}
+[44.833986] (-) TimerEvent: {}
+[44.934683] (-) TimerEvent: {}
+[45.035337] (-) TimerEvent: {}
+[45.136027] (-) TimerEvent: {}
+[45.236697] (-) TimerEvent: {}
+[45.337361] (-) TimerEvent: {}
+[45.438053] (-) TimerEvent: {}
+[45.538742] (-) TimerEvent: {}
+[45.639406] (-) TimerEvent: {}
+[45.740107] (-) TimerEvent: {}
+[45.840849] (-) TimerEvent: {}
+[45.941538] (-) TimerEvent: {}
+[46.042228] (-) TimerEvent: {}
+[46.142897] (-) TimerEvent: {}
+[46.243568] (-) TimerEvent: {}
+[46.344243] (-) TimerEvent: {}
+[46.444930] (-) TimerEvent: {}
+[46.545620] (-) TimerEvent: {}
+[46.646341] (-) TimerEvent: {}
+[46.747038] (-) TimerEvent: {}
+[46.847706] (-) TimerEvent: {}
+[46.948376] (-) TimerEvent: {}
+[47.049056] (-) TimerEvent: {}
+[47.149715] (-) TimerEvent: {}
+[47.250414] (-) TimerEvent: {}
+[47.351086] (-) TimerEvent: {}
+[47.451743] (-) TimerEvent: {}
+[47.552424] (-) TimerEvent: {}
+[47.653127] (-) TimerEvent: {}
+[47.753822] (-) TimerEvent: {}
+[47.854537] (-) TimerEvent: {}
+[47.955212] (-) TimerEvent: {}
+[48.055886] (-) TimerEvent: {}
+[48.156560] (-) TimerEvent: {}
+[48.257217] (-) TimerEvent: {}
+[48.357899] (-) TimerEvent: {}
+[48.458612] (-) TimerEvent: {}
+[48.559278] (-) TimerEvent: {}
+[48.659945] (-) TimerEvent: {}
+[48.760623] (-) TimerEvent: {}
+[48.861302] (-) TimerEvent: {}
+[48.961995] (-) TimerEvent: {}
+[49.062705] (-) TimerEvent: {}
+[49.163401] (-) TimerEvent: {}
+[49.264071] (-) TimerEvent: {}
+[49.364744] (-) TimerEvent: {}
+[49.465421] (-) TimerEvent: {}
+[49.566150] (-) TimerEvent: {}
+[49.666830] (-) TimerEvent: {}
+[49.767505] (-) TimerEvent: {}
+[49.868141] (-) TimerEvent: {}
+[49.968808] (-) TimerEvent: {}
+[50.069497] (-) TimerEvent: {}
+[50.170193] (-) TimerEvent: {}
+[50.270845] (-) TimerEvent: {}
+[50.371501] (-) TimerEvent: {}
+[50.472160] (-) TimerEvent: {}
+[50.572827] (-) TimerEvent: {}
+[50.673504] (-) TimerEvent: {}
+[50.774211] (-) TimerEvent: {}
+[50.874882] (-) TimerEvent: {}
+[50.975561] (-) TimerEvent: {}
+[51.076235] (-) TimerEvent: {}
+[51.176888] (-) TimerEvent: {}
+[51.277542] (-) TimerEvent: {}
+[51.378238] (-) TimerEvent: {}
+[51.478904] (-) TimerEvent: {}
+[51.579542] (-) TimerEvent: {}
+[51.680199] (-) TimerEvent: {}
+[51.780852] (-) TimerEvent: {}
+[51.881515] (-) TimerEvent: {}
+[51.982205] (-) TimerEvent: {}
+[52.082866] (-) TimerEvent: {}
+[52.183521] (-) TimerEvent: {}
+[52.284181] (-) TimerEvent: {}
+[52.384833] (-) TimerEvent: {}
+[52.485484] (-) TimerEvent: {}
+[52.586188] (-) TimerEvent: {}
+[52.686852] (-) TimerEvent: {}
+[52.787534] (-) TimerEvent: {}
+[52.888208] (-) TimerEvent: {}
+[52.988867] (-) TimerEvent: {}
+[53.089524] (-) TimerEvent: {}
+[53.190216] (-) TimerEvent: {}
+[53.290887] (-) TimerEvent: {}
+[53.391546] (-) TimerEvent: {}
+[53.492216] (-) TimerEvent: {}
+[53.592894] (-) TimerEvent: {}
+[53.693568] (-) TimerEvent: {}
+[53.794237] (-) TimerEvent: {}
+[53.894888] (-) TimerEvent: {}
+[53.995560] (-) TimerEvent: {}
+[54.096226] (-) TimerEvent: {}
+[54.196887] (-) TimerEvent: {}
+[54.297559] (-) TimerEvent: {}
+[54.398254] (-) TimerEvent: {}
+[54.498924] (-) TimerEvent: {}
+[54.599597] (-) TimerEvent: {}
+[54.700277] (-) TimerEvent: {}
+[54.800944] (-) TimerEvent: {}
+[54.901604] (-) TimerEvent: {}
+[55.002255] (-) TimerEvent: {}
+[55.102908] (-) TimerEvent: {}
+[55.203583] (-) TimerEvent: {}
+[55.304232] (-) TimerEvent: {}
+[55.404881] (-) TimerEvent: {}
+[55.505556] (-) TimerEvent: {}
+[55.606248] (-) TimerEvent: {}
+[55.706906] (-) TimerEvent: {}
+[55.807563] (-) TimerEvent: {}
+[55.908219] (-) TimerEvent: {}
+[56.008896] (-) TimerEvent: {}
+[56.109551] (-) TimerEvent: {}
+[56.210231] (-) TimerEvent: {}
+[56.310875] (-) TimerEvent: {}
+[56.411519] (-) TimerEvent: {}
+[56.512166] (-) TimerEvent: {}
+[56.612800] (-) TimerEvent: {}
+[56.713437] (-) TimerEvent: {}
+[56.814120] (-) TimerEvent: {}
+[56.914776] (-) TimerEvent: {}
+[57.015438] (-) TimerEvent: {}
+[57.116093] (-) TimerEvent: {}
+[57.216754] (-) TimerEvent: {}
+[57.317423] (-) TimerEvent: {}
+[57.418122] (-) TimerEvent: {}
+[57.518786] (-) TimerEvent: {}
+[57.619467] (-) TimerEvent: {}
+[57.720138] (-) TimerEvent: {}
+[57.820821] (-) TimerEvent: {}
+[57.921504] (-) TimerEvent: {}
+[58.022232] (-) TimerEvent: {}
+[58.122895] (-) TimerEvent: {}
+[58.223567] (-) TimerEvent: {}
+[58.324254] (-) TimerEvent: {}
+[58.424936] (-) TimerEvent: {}
+[58.525602] (-) TimerEvent: {}
+[58.626249] (-) TimerEvent: {}
+[58.726915] (-) TimerEvent: {}
+[58.827557] (-) TimerEvent: {}
+[58.928220] (-) TimerEvent: {}
+[59.028889] (-) TimerEvent: {}
+[59.129588] (-) TimerEvent: {}
+[59.230247] (-) TimerEvent: {}
+[59.330914] (-) TimerEvent: {}
+[59.431582] (-) TimerEvent: {}
+[59.532250] (-) TimerEvent: {}
+[59.632945] (-) TimerEvent: {}
+[59.733705] (-) TimerEvent: {}
+[59.834428] (-) TimerEvent: {}
+[59.935116] (-) TimerEvent: {}
+[60.035778] (-) TimerEvent: {}
+[60.136478] (-) TimerEvent: {}
+[60.237161] (-) TimerEvent: {}
+[60.337838] (-) TimerEvent: {}
+[60.438550] (-) TimerEvent: {}
+[60.539249] (-) TimerEvent: {}
+[60.639944] (-) TimerEvent: {}
+[60.740658] (-) TimerEvent: {}
+[60.841325] (-) TimerEvent: {}
+[60.941976] (-) TimerEvent: {}
+[61.042657] (-) TimerEvent: {}
+[61.143339] (-) TimerEvent: {}
+[61.243969] (-) TimerEvent: {}
+[61.344625] (-) TimerEvent: {}
+[61.445262] (-) TimerEvent: {}
+[61.545906] (-) TimerEvent: {}
+[61.646588] (-) TimerEvent: {}
+[61.747260] (-) TimerEvent: {}
+[61.847919] (-) TimerEvent: {}
+[61.948575] (-) TimerEvent: {}
+[62.049221] (-) TimerEvent: {}
+[62.149858] (-) TimerEvent: {}
+[62.250529] (-) TimerEvent: {}
+[62.351151] (-) TimerEvent: {}
+[62.451788] (-) TimerEvent: {}
+[62.552418] (-) TimerEvent: {}
+[62.653053] (-) TimerEvent: {}
+[62.753687] (-) TimerEvent: {}
+[62.854367] (-) TimerEvent: {}
+[62.955009] (-) TimerEvent: {}
+[63.055662] (-) TimerEvent: {}
+[63.156311] (-) TimerEvent: {}
+[63.256959] (-) TimerEvent: {}
+[63.357601] (-) TimerEvent: {}
+[63.458259] (-) TimerEvent: {}
+[63.558927] (-) TimerEvent: {}
+[63.659591] (-) TimerEvent: {}
+[63.760262] (-) TimerEvent: {}
+[63.860929] (-) TimerEvent: {}
+[63.961622] (-) TimerEvent: {}
+[64.062324] (-) TimerEvent: {}
+[64.162994] (-) TimerEvent: {}
+[64.263658] (-) TimerEvent: {}
+[64.364326] (-) TimerEvent: {}
+[64.464982] (-) TimerEvent: {}
+[64.565664] (-) TimerEvent: {}
+[64.666381] (-) TimerEvent: {}
+[64.767063] (-) TimerEvent: {}
+[64.867728] (-) TimerEvent: {}
+[64.968398] (-) TimerEvent: {}
+[65.069043] (-) TimerEvent: {}
+[65.169670] (-) TimerEvent: {}
+[65.270318] (-) TimerEvent: {}
+[65.370938] (-) TimerEvent: {}
+[65.471566] (-) TimerEvent: {}
+[65.572192] (-) TimerEvent: {}
+[65.672815] (-) TimerEvent: {}
+[65.773450] (-) TimerEvent: {}
+[65.874089] (-) TimerEvent: {}
+[65.974760] (-) TimerEvent: {}
+[66.075391] (-) TimerEvent: {}
+[66.176011] (-) TimerEvent: {}
+[66.276657] (-) TimerEvent: {}
+[66.377286] (-) TimerEvent: {}
+[66.477909] (-) TimerEvent: {}
+[66.578563] (-) TimerEvent: {}
+[66.679166] (-) TimerEvent: {}
+[66.779760] (-) TimerEvent: {}
+[66.880362] (-) TimerEvent: {}
+[66.980961] (-) TimerEvent: {}
+[67.081565] (-) TimerEvent: {}
+[67.182186] (-) TimerEvent: {}
+[67.282779] (-) TimerEvent: {}
+[67.383378] (-) TimerEvent: {}
+[67.483969] (-) TimerEvent: {}
+[67.584584] (-) TimerEvent: {}
+[67.685204] (-) TimerEvent: {}
+[67.785837] (-) TimerEvent: {}
+[67.886510] (-) TimerEvent: {}
+[67.987139] (-) TimerEvent: {}
+[68.087783] (-) TimerEvent: {}
+[68.188397] (-) TimerEvent: {}
+[68.289012] (-) TimerEvent: {}
+[68.389621] (-) TimerEvent: {}
+[68.490239] (-) TimerEvent: {}
+[68.590849] (-) TimerEvent: {}
+[68.691464] (-) TimerEvent: {}
+[68.792069] (-) TimerEvent: {}
+[68.892700] (-) TimerEvent: {}
+[68.993331] (-) TimerEvent: {}
+[69.093970] (-) TimerEvent: {}
+[69.194635] (-) TimerEvent: {}
+[69.295273] (-) TimerEvent: {}
+[69.395907] (-) TimerEvent: {}
+[69.496536] (-) TimerEvent: {}
+[69.597171] (-) TimerEvent: {}
+[69.697814] (-) TimerEvent: {}
+[69.798509] (-) TimerEvent: {}
+[69.899142] (-) TimerEvent: {}
+[69.999773] (-) TimerEvent: {}
+[70.100393] (-) TimerEvent: {}
+[70.201023] (-) TimerEvent: {}
+[70.301644] (-) TimerEvent: {}
+[70.402318] (-) TimerEvent: {}
+[70.502938] (-) TimerEvent: {}
+[70.603558] (-) TimerEvent: {}
+[70.704190] (-) TimerEvent: {}
+[70.804808] (-) TimerEvent: {}
+[70.905440] (-) TimerEvent: {}
+[71.006084] (-) TimerEvent: {}
+[71.106754] (-) TimerEvent: {}
+[71.207389] (-) TimerEvent: {}
+[71.308043] (-) TimerEvent: {}
+[71.408698] (-) TimerEvent: {}
+[71.509343] (-) TimerEvent: {}
+[71.609998] (-) TimerEvent: {}
+[71.710659] (-) TimerEvent: {}
+[71.811335] (-) TimerEvent: {}
+[71.911981] (-) TimerEvent: {}
+[72.012623] (-) TimerEvent: {}
+[72.113252] (-) TimerEvent: {}
+[72.213906] (-) TimerEvent: {}
+[72.314592] (-) TimerEvent: {}
+[72.415294] (-) TimerEvent: {}
+[72.515970] (-) TimerEvent: {}
+[72.616634] (-) TimerEvent: {}
+[72.717283] (-) TimerEvent: {}
+[72.817962] (-) TimerEvent: {}
+[72.918673] (-) TimerEvent: {}
+[73.019366] (-) TimerEvent: {}
+[73.091317] (vectornav) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable vectornav\x1b[0m\n'}
+[73.119501] (-) TimerEvent: {}
+[73.220109] (-) TimerEvent: {}
+[73.320834] (-) TimerEvent: {}
+[73.421498] (-) TimerEvent: {}
+[73.522257] (-) TimerEvent: {}
+[73.622977] (-) TimerEvent: {}
+[73.723695] (-) TimerEvent: {}
+[73.824389] (-) TimerEvent: {}
+[73.925089] (-) TimerEvent: {}
+[74.025760] (-) TimerEvent: {}
+[74.126474] (-) TimerEvent: {}
+[74.227154] (-) TimerEvent: {}
+[74.327795] (-) TimerEvent: {}
+[74.398141] (vectornav) StdoutLine: {'line': b'[ 96%] Built target vectornav\n'}
+[74.427870] (-) TimerEvent: {}
+[74.528366] (-) TimerEvent: {}
+[74.628850] (-) TimerEvent: {}
+[74.729297] (-) TimerEvent: {}
+[74.829717] (-) TimerEvent: {}
+[74.930167] (-) TimerEvent: {}
+[75.030658] (-) TimerEvent: {}
+[75.131256] (-) TimerEvent: {}
+[75.231755] (-) TimerEvent: {}
+[75.332198] (-) TimerEvent: {}
+[75.432628] (-) TimerEvent: {}
+[75.533039] (-) TimerEvent: {}
+[75.633439] (-) TimerEvent: {}
+[75.733839] (-) TimerEvent: {}
+[75.834287] (-) TimerEvent: {}
+[75.934698] (-) TimerEvent: {}
+[76.035107] (-) TimerEvent: {}
+[76.135494] (-) TimerEvent: {}
+[76.235772] (-) TimerEvent: {}
+[76.336192] (-) TimerEvent: {}
+[76.436635] (-) TimerEvent: {}
+[76.537063] (-) TimerEvent: {}
+[76.637478] (-) TimerEvent: {}
+[76.737922] (-) TimerEvent: {}
+[76.838464] (-) TimerEvent: {}
+[76.938918] (-) TimerEvent: {}
+[77.039342] (-) TimerEvent: {}
+[77.139762] (-) TimerEvent: {}
+[77.240165] (-) TimerEvent: {}
+[77.340562] (-) TimerEvent: {}
+[77.440970] (-) TimerEvent: {}
+[77.541381] (-) TimerEvent: {}
+[77.641786] (-) TimerEvent: {}
+[77.742163] (-) TimerEvent: {}
+[77.842562] (-) TimerEvent: {}
+[77.942954] (-) TimerEvent: {}
+[78.043354] (-) TimerEvent: {}
+[78.143754] (-) TimerEvent: {}
+[78.244163] (-) TimerEvent: {}
+[78.344564] (-) TimerEvent: {}
+[78.444990] (-) TimerEvent: {}
+[78.545406] (-) TimerEvent: {}
+[78.645818] (-) TimerEvent: {}
+[78.746249] (-) TimerEvent: {}
+[78.846660] (-) TimerEvent: {}
+[78.947075] (-) TimerEvent: {}
+[79.047475] (-) TimerEvent: {}
+[79.147889] (-) TimerEvent: {}
+[79.248295] (-) TimerEvent: {}
+[79.348690] (-) TimerEvent: {}
+[79.449081] (-) TimerEvent: {}
+[79.549477] (-) TimerEvent: {}
+[79.649866] (-) TimerEvent: {}
+[79.750278] (-) TimerEvent: {}
+[79.850682] (-) TimerEvent: {}
+[79.951134] (-) TimerEvent: {}
+[80.051555] (-) TimerEvent: {}
+[80.151968] (-) TimerEvent: {}
+[80.252369] (-) TimerEvent: {}
+[80.352768] (-) TimerEvent: {}
+[80.453190] (-) TimerEvent: {}
+[80.553603] (-) TimerEvent: {}
+[80.654020] (-) TimerEvent: {}
+[80.754469] (-) TimerEvent: {}
+[80.854881] (-) TimerEvent: {}
+[80.955296] (-) TimerEvent: {}
+[81.055724] (-) TimerEvent: {}
+[81.156122] (-) TimerEvent: {}
+[81.256532] (-) TimerEvent: {}
+[81.356934] (-) TimerEvent: {}
+[81.457329] (-) TimerEvent: {}
+[81.557722] (-) TimerEvent: {}
+[81.658152] (-) TimerEvent: {}
+[81.758534] (-) TimerEvent: {}
+[81.858915] (-) TimerEvent: {}
+[81.959316] (-) TimerEvent: {}
+[82.059739] (-) TimerEvent: {}
+[82.160144] (-) TimerEvent: {}
+[82.260543] (-) TimerEvent: {}
+[82.360944] (-) TimerEvent: {}
+[82.461359] (-) TimerEvent: {}
+[82.561770] (-) TimerEvent: {}
+[82.662167] (-) TimerEvent: {}
+[82.762577] (-) TimerEvent: {}
+[82.862977] (-) TimerEvent: {}
+[82.963413] (-) TimerEvent: {}
+[83.064093] (-) TimerEvent: {}
+[83.164744] (-) TimerEvent: {}
+[83.265391] (-) TimerEvent: {}
+[83.366036] (-) TimerEvent: {}
+[83.466692] (-) TimerEvent: {}
+[83.567341] (-) TimerEvent: {}
+[83.667808] (-) TimerEvent: {}
+[83.768462] (-) TimerEvent: {}
+[83.868927] (-) TimerEvent: {}
+[83.969368] (-) TimerEvent: {}
+[84.069853] (-) TimerEvent: {}
+[84.170679] (-) TimerEvent: {}
+[84.271226] (-) TimerEvent: {}
+[84.371959] (-) TimerEvent: {}
+[84.472520] (-) TimerEvent: {}
+[84.573033] (-) TimerEvent: {}
+[84.673505] (-) TimerEvent: {}
+[84.773964] (-) TimerEvent: {}
+[84.874468] (-) TimerEvent: {}
+[84.974991] (-) TimerEvent: {}
+[85.075575] (-) TimerEvent: {}
+[85.176109] (-) TimerEvent: {}
+[85.276654] (-) TimerEvent: {}
+[85.377196] (-) TimerEvent: {}
+[85.477715] (-) TimerEvent: {}
+[85.578209] (-) TimerEvent: {}
+[85.678876] (-) TimerEvent: {}
+[85.779338] (-) TimerEvent: {}
+[85.879972] (-) TimerEvent: {}
+[85.980642] (-) TimerEvent: {}
+[86.081133] (-) TimerEvent: {}
+[86.181556] (-) TimerEvent: {}
+[86.281984] (-) TimerEvent: {}
+[86.382431] (-) TimerEvent: {}
+[86.482854] (-) TimerEvent: {}
+[86.583267] (-) TimerEvent: {}
+[86.683676] (-) TimerEvent: {}
+[86.784277] (-) TimerEvent: {}
+[86.884927] (-) TimerEvent: {}
+[86.985609] (-) TimerEvent: {}
+[87.086152] (-) TimerEvent: {}
+[87.186853] (-) TimerEvent: {}
+[87.287400] (-) TimerEvent: {}
+[87.387981] (-) TimerEvent: {}
+[87.488505] (-) TimerEvent: {}
+[87.588997] (-) TimerEvent: {}
+[87.689544] (-) TimerEvent: {}
+[87.790085] (-) TimerEvent: {}
+[87.890654] (-) TimerEvent: {}
+[87.991154] (-) TimerEvent: {}
+[88.091671] (-) TimerEvent: {}
+[88.192249] (-) TimerEvent: {}
+[88.292801] (-) TimerEvent: {}
+[88.393353] (-) TimerEvent: {}
+[88.493921] (-) TimerEvent: {}
+[88.594511] (-) TimerEvent: {}
+[88.695092] (-) TimerEvent: {}
+[88.795631] (-) TimerEvent: {}
+[88.896147] (-) TimerEvent: {}
+[88.996813] (-) TimerEvent: {}
+[89.097302] (-) TimerEvent: {}
+[89.197781] (-) TimerEvent: {}
+[89.298489] (-) TimerEvent: {}
+[89.399210] (-) TimerEvent: {}
+[89.499700] (-) TimerEvent: {}
+[89.600366] (-) TimerEvent: {}
+[89.701027] (-) TimerEvent: {}
+[89.801485] (-) TimerEvent: {}
+[89.902132] (-) TimerEvent: {}
+[90.002639] (-) TimerEvent: {}
+[90.103195] (-) TimerEvent: {}
+[90.203740] (-) TimerEvent: {}
+[90.304278] (-) TimerEvent: {}
+[90.404828] (-) TimerEvent: {}
+[90.505381] (-) TimerEvent: {}
+[90.605896] (-) TimerEvent: {}
+[90.706453] (-) TimerEvent: {}
+[90.807001] (-) TimerEvent: {}
+[90.907538] (-) TimerEvent: {}
+[91.008077] (-) TimerEvent: {}
+[91.108603] (-) TimerEvent: {}
+[91.209153] (-) TimerEvent: {}
+[91.309724] (-) TimerEvent: {}
+[91.410285] (-) TimerEvent: {}
+[91.510831] (-) TimerEvent: {}
+[91.611378] (-) TimerEvent: {}
+[91.711934] (-) TimerEvent: {}
+[91.812473] (-) TimerEvent: {}
+[91.913142] (-) TimerEvent: {}
+[92.013799] (-) TimerEvent: {}
+[92.114308] (-) TimerEvent: {}
+[92.214958] (-) TimerEvent: {}
+[92.315423] (-) TimerEvent: {}
+[92.415858] (-) TimerEvent: {}
+[92.516490] (-) TimerEvent: {}
+[92.616989] (-) TimerEvent: {}
+[92.717663] (-) TimerEvent: {}
+[92.818164] (-) TimerEvent: {}
+[92.918834] (-) TimerEvent: {}
+[93.019330] (-) TimerEvent: {}
+[93.119856] (-) TimerEvent: {}
+[93.220446] (-) TimerEvent: {}
+[93.321167] (-) TimerEvent: {}
+[93.421723] (-) TimerEvent: {}
+[93.522239] (-) TimerEvent: {}
+[93.622771] (-) TimerEvent: {}
+[93.723246] (-) TimerEvent: {}
+[93.823715] (-) TimerEvent: {}
+[93.924331] (-) TimerEvent: {}
+[94.025042] (-) TimerEvent: {}
+[94.125662] (-) TimerEvent: {}
+[94.226209] (-) TimerEvent: {}
+[94.326772] (-) TimerEvent: {}
+[94.427347] (-) TimerEvent: {}
+[94.527863] (-) TimerEvent: {}
+[94.628371] (-) TimerEvent: {}
+[94.728873] (-) TimerEvent: {}
+[94.829578] (-) TimerEvent: {}
+[94.930144] (-) TimerEvent: {}
+[95.030688] (-) TimerEvent: {}
+[95.131371] (-) TimerEvent: {}
+[95.231865] (-) TimerEvent: {}
+[95.332542] (-) TimerEvent: {}
+[95.433018] (-) TimerEvent: {}
+[95.533672] (-) TimerEvent: {}
+[95.634343] (-) TimerEvent: {}
+[95.734793] (-) TimerEvent: {}
+[95.835232] (-) TimerEvent: {}
+[95.936096] (-) TimerEvent: {}
+[96.036564] (-) TimerEvent: {}
+[96.137266] (-) TimerEvent: {}
+[96.237988] (-) TimerEvent: {}
+[96.338589] (-) TimerEvent: {}
+[96.439373] (-) TimerEvent: {}
+[96.539981] (-) TimerEvent: {}
+[96.640600] (-) TimerEvent: {}
+[96.741271] (-) TimerEvent: {}
+[96.842198] (-) TimerEvent: {}
+[96.942936] (-) TimerEvent: {}
+[97.043899] (-) TimerEvent: {}
+[97.144656] (-) TimerEvent: {}
+[97.245139] (-) TimerEvent: {}
+[97.345795] (-) TimerEvent: {}
+[97.446493] (-) TimerEvent: {}
+[97.547176] (-) TimerEvent: {}
+[97.647842] (-) TimerEvent: {}
+[97.748430] (-) TimerEvent: {}
+[97.849379] (-) TimerEvent: {}
+[97.950161] (-) TimerEvent: {}
+[98.050857] (-) TimerEvent: {}
+[98.151528] (-) TimerEvent: {}
+[98.252176] (-) TimerEvent: {}
+[98.352911] (-) TimerEvent: {}
+[98.453620] (-) TimerEvent: {}
+[98.554321] (-) TimerEvent: {}
+[98.654996] (-) TimerEvent: {}
+[98.755658] (-) TimerEvent: {}
+[98.856320] (-) TimerEvent: {}
+[98.956796] (-) TimerEvent: {}
+[99.057471] (-) TimerEvent: {}
+[99.158158] (-) TimerEvent: {}
+[99.258646] (-) TimerEvent: {}
+[99.359162] (-) TimerEvent: {}
+[99.459811] (-) TimerEvent: {}
+[99.560297] (-) TimerEvent: {}
+[99.660831] (-) TimerEvent: {}
+[99.761484] (-) TimerEvent: {}
+[99.862168] (-) TimerEvent: {}
+[99.962671] (-) TimerEvent: {}
+[100.063343] (-) TimerEvent: {}
+[100.164001] (-) TimerEvent: {}
+[100.264657] (-) TimerEvent: {}
+[100.365133] (-) TimerEvent: {}
+[100.465626] (-) TimerEvent: {}
+[100.566312] (-) TimerEvent: {}
+[100.666981] (-) TimerEvent: {}
+[100.767644] (-) TimerEvent: {}
+[100.868138] (-) TimerEvent: {}
+[100.968794] (-) TimerEvent: {}
+[101.069466] (-) TimerEvent: {}
+[101.170181] (-) TimerEvent: {}
+[101.270678] (-) TimerEvent: {}
+[101.371334] (-) TimerEvent: {}
+[101.471982] (-) TimerEvent: {}
+[101.572626] (-) TimerEvent: {}
+[101.673264] (-) TimerEvent: {}
+[101.773898] (-) TimerEvent: {}
+[101.874373] (-) TimerEvent: {}
+[101.975004] (-) TimerEvent: {}
+[102.075636] (-) TimerEvent: {}
+[102.176279] (-) TimerEvent: {}
+[102.276753] (-) TimerEvent: {}
+[102.377267] (-) TimerEvent: {}
+[102.477980] (-) TimerEvent: {}
+[102.558417] (vectornav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable vn_sensor_msgs\x1b[0m\n'}
+[102.578165] (-) TimerEvent: {}
+[102.678700] (-) TimerEvent: {}
+[102.779290] (-) TimerEvent: {}
+[102.879801] (-) TimerEvent: {}
+[102.980345] (-) TimerEvent: {}
+[103.080858] (-) TimerEvent: {}
+[103.181353] (-) TimerEvent: {}
+[103.282013] (-) TimerEvent: {}
+[103.382532] (-) TimerEvent: {}
+[103.483212] (-) TimerEvent: {}
+[103.583865] (-) TimerEvent: {}
+[103.684533] (-) TimerEvent: {}
+[103.785043] (-) TimerEvent: {}
+[103.885716] (-) TimerEvent: {}
+[103.986209] (-) TimerEvent: {}
+[104.086882] (-) TimerEvent: {}
+[104.187354] (-) TimerEvent: {}
+[104.288006] (-) TimerEvent: {}
+[104.388657] (-) TimerEvent: {}
+[104.489108] (-) TimerEvent: {}
+[104.589747] (-) TimerEvent: {}
+[104.690462] (-) TimerEvent: {}
+[104.791127] (-) TimerEvent: {}
+[104.891800] (-) TimerEvent: {}
+[104.992306] (-) TimerEvent: {}
+[105.092836] (-) TimerEvent: {}
+[105.193311] (-) TimerEvent: {}
+[105.293766] (-) TimerEvent: {}
+[105.394333] (-) TimerEvent: {}
+[105.494901] (-) TimerEvent: {}
+[105.595437] (-) TimerEvent: {}
+[105.695959] (-) TimerEvent: {}
+[105.796489] (-) TimerEvent: {}
+[105.897034] (-) TimerEvent: {}
+[105.997598] (-) TimerEvent: {}
+[106.018394] (vectornav) StdoutLine: {'line': b'[100%] Built target vn_sensor_msgs\n'}
+[106.036560] (vectornav) CommandEnded: {'returncode': 0}
+[106.097782] (-) TimerEvent: {}
+[106.132322] (vectornav) JobProgress: {'identifier': 'vectornav', 'progress': 'install'}
+[106.133184] (vectornav) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/ros2_ws/build/vectornav'], 'cwd': '/home/ros2_ws/build/vectornav', 'env': OrderedDict([('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64'), ('HOME', '/root'), ('OLDPWD', '/home'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/home/ros2_ws/install/vectornav_msgs:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/home/ros2_ws/build/vectornav'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_ws/install/vectornav_msgs:/opt/ros/humble/install')]), 'shell': False}
+[106.193600] (vectornav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[106.194076] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/lib/vectornav/vectornav\n'}
+[106.197844] (-) TimerEvent: {}
+[106.204351] (vectornav) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav/lib/vectornav/vectornav" to ""\n'}
+[106.204717] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/lib/vectornav/vn_sensor_msgs\n'}
+[106.232978] (vectornav) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_ws/install/vectornav/lib/vectornav/vn_sensor_msgs" to ""\n'}
+[106.233291] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav//config\n'}
+[106.233473] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav//config/vn_100_800hz.yaml\n'}
+[106.233936] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav//config/vectornav.yaml\n'}
+[106.234284] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav//launch\n'}
+[106.234460] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav//launch/vectornav.launch.py\n'}
+[106.234961] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/ament_index/resource_index/package_run_dependencies/vectornav\n'}
+[106.235328] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/ament_index/resource_index/parent_prefix_path/vectornav\n'}
+[106.235701] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.sh\n'}
+[106.236014] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.dsv\n'}
+[106.236296] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/path.sh\n'}
+[106.236577] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/path.dsv\n'}
+[106.236838] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.bash\n'}
+[106.237095] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.sh\n'}
+[106.237364] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.zsh\n'}
+[106.237617] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.dsv\n'}
+[106.237889] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/package.dsv\n'}
+[106.238255] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/ament_index/resource_index/packages/vectornav\n'}
+[106.238582] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[106.238847] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/cmake/vectornavConfig.cmake\n'}
+[106.239059] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/cmake/vectornavConfig-version.cmake\n'}
+[106.239308] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/share/vectornav/package.xml\n'}
+[106.239948] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/lib/libvncxx.so\n'}
+[106.241869] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn\n'}
+[106.242081] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/compositedata.h\n'}
+[106.242404] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/types.h\n'}
+[106.242658] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/conversions.h\n'}
+[106.242875] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/serialport.h\n'}
+[106.243085] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/vntime.h\n'}
+[106.243280] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/dllvalidator.h\n'}
+[106.243601] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/export.h\n'}
+[106.243810] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/packet.h\n'}
+[106.244238] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/sensors.h\n'}
+[106.244546] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/memoryport.h\n'}
+[106.244745] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/position.h\n'}
+[106.244940] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/int.h\n'}
+[106.245151] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/signal.h\n'}
+[106.245467] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/thread.h\n'}
+[106.245670] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/utilities.h\n'}
+[106.245862] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/util.h\n'}
+[106.246085] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/mock.h\n'}
+[106.246431] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/registers.h\n'}
+[106.246744] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/boostpython.h\n'}
+[106.247045] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/compiler.h\n'}
+[106.247239] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/vector.h\n'}
+[106.247497] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/criticalsection.h\n'}
+[106.247694] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/nocopy.h\n'}
+[106.247906] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/error_detection.h\n'}
+[106.248102] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/packetfinder.h\n'}
+[106.248297] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/consts.h\n'}
+[106.248492] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/rtcmmessage.h\n'}
+[106.248718] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/ezasyncdata.h\n'}
+[106.248917] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/rtcmlistener.h\n'}
+[106.249117] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/searcher.h\n'}
+[106.249334] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/attitude.h\n'}
+[106.249530] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/event.h\n'}
+[106.249722] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/exceptions.h\n'}
+[106.249917] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/port.h\n'}
+[106.250130] (vectornav) StdoutLine: {'line': b'-- Installing: /home/ros2_ws/install/vectornav/include/vn/matrix.h\n'}
+[106.261748] (vectornav) CommandEnded: {'returncode': 0}
+[106.300813] (-) TimerEvent: {}
+[106.402060] (-) TimerEvent: {}
+[106.469387] (vectornav) JobEnded: {'identifier': 'vectornav', 'rc': 0}
+[106.472074] (-) EventReactorShutdown: {}

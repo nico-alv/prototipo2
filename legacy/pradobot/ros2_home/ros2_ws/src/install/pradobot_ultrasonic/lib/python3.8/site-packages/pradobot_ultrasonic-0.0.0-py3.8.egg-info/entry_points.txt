@@ -1,0 +1,2 @@
+[console_scripts]
+ultrasonic_node = pradobot_ultrasonic.ultrasonic_core:main

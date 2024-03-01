@@ -1,0 +1,152 @@
+[0.031s] Invoking command in '/home/ros2_ws/build/vectornav': AMENT_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/ros2_ws/src/vectornav/vectornav -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vectornav
+[0.173s] -- The C compiler identification is GNU 9.4.0
+[0.284s] -- The CXX compiler identification is GNU 9.4.0
+[0.334s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.486s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.487s] -- Detecting C compile features
+[0.488s] -- Detecting C compile features - done
+[0.512s] -- Detecting CXX compiler ABI info
+[0.649s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.683s] -- Detecting CXX compile features
+[0.685s] -- Detecting CXX compile features - done
+[0.691s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[2.855s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[3.044s] -- Found rclcpp: 16.0.5 (/opt/ros/humble/install/share/rclcpp/cmake)
+[3.148s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[3.159s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[3.179s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[3.214s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.449s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)
+[3.456s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)
+[3.553s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.699s] -- Looking for pthread_create in pthreads
+[3.804s] -- Looking for pthread_create in pthreads - not found
+[3.805s] -- Looking for pthread_create in pthread
+[3.924s] -- Looking for pthread_create in pthread - found
+[3.928s] -- Found Threads: TRUE  
+[4.342s] -- Found rclcpp_action: 16.0.5 (/opt/ros/humble/install/share/rclcpp_action/cmake)
+[4.576s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[4.884s] -- Found vectornav_msgs: 3.0.0 (/home/ros2_ws/install/vectornav_msgs/share/vectornav_msgs/cmake)
+[5.086s] -- Found tf2_geometry_msgs: 0.25.3 (/opt/ros/humble/install/share/tf2_geometry_msgs/cmake)
+[5.114s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/install/share/eigen3_cmake_module/cmake)
+[5.117s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.117s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.752s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[5.927s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.927s] -- Configured cppcheck include dirs: 
+[5.927s] -- Configured cppcheck exclude dirs and/or files: 
+[5.934s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.934s] -- Configured cpplint exclude dirs and/or files: 
+[5.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.939s] -- Added test 'lint_cmake' to check CMake code style
+[5.940s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.947s] -- Added test 'uncrustify' to check C / C++ code style
+[5.948s] -- Configured uncrustify additional arguments: 
+[5.949s] -- Added test 'xmllint' to check XML markup files
+[5.954s] -- Configuring done (5.9s)
+[6.006s] -- Generating done (0.0s)
+[6.011s] -- Build files have been written to: /home/ros2_ws/build/vectornav
+[6.046s] Invoked command in '/home/ros2_ws/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake /home/ros2_ws/src/vectornav/vectornav -DCMAKE_INSTALL_PREFIX=/home/ros2_ws/install/vectornav
+[6.052s] Invoking command in '/home/ros2_ws/build/vectornav': AMENT_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/ros2_ws/build/vectornav -- -j6 -l6
+[6.151s] [ 17%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/attitude.cpp.o[0m
+[6.152s] [ 17%] [32mBuilding CXX object CMakeFiles/vn_sensor_msgs.dir/src/vn_sensor_msgs.cc.o[0m
+[6.152s] [ 21%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/conversions.cpp.o[0m
+[6.152s] [ 21%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/compositedata.cpp.o[0m
+[6.153s] [ 21%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/criticalsection.cpp.o[0m
+[6.153s] [ 21%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/dllvalidator.cpp.o[0m
+[6.191s] [ 25%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/error_detection.cpp.o[0m
+[6.536s] [ 28%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/event.cpp.o[0m
+[6.720s] [ 32%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/ezasyncdata.cpp.o[0m
+[6.827s] [ 35%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/memoryport.cpp.o[0m
+[6.854s] [ 39%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/packet.cpp.o[0m
+[6.926s] [ 42%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/packetfinder.cpp.o[0m
+[7.301s] [ 46%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/port.cpp.o[0m
+[7.352s] [ 50%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/position.cpp.o[0m
+[7.569s] [ 53%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/rtcmlistener.cpp.o[0m
+[7.625s] [ 57%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/rtcmmessage.cpp.o[0m
+[7.985s] [ 60%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/searcher.cpp.o[0m
+[8.016s] [ 64%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/sensors.cpp.o[0m
+[8.033s] [ 67%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/serialport.cpp.o[0m
+[8.122s] [ 71%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/thread.cpp.o[0m
+[8.394s] [ 75%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/types.cpp.o[0m
+[8.452s] [ 78%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/util.cpp.o[0m
+[8.526s] [ 82%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/utilities.cpp.o[0m
+[8.924s] [ 85%] [32mBuilding CXX object vnproglib-1.2.0.0/cpp/CMakeFiles/vncxx.dir/src/vntime.cpp.o[0m
+[9.742s] [ 89%] [32m[1mLinking CXX shared library libvncxx.so[0m
+[9.923s] [ 89%] Built target vncxx
+[9.940s] [ 92%] [32mBuilding CXX object CMakeFiles/vectornav.dir/src/vectornav.cc.o[0m
+[38.762s] [ 96%] [32m[1mLinking CXX executable vectornav[0m
+[40.069s] [ 96%] Built target vectornav
+[68.230s] [100%] [32m[1mLinking CXX executable vn_sensor_msgs[0m
+[71.690s] [100%] Built target vn_sensor_msgs
+[71.708s] Invoked command in '/home/ros2_ws/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/ros2_ws/build/vectornav -- -j6 -l6
+[71.808s] Invoking command in '/home/ros2_ws/build/vectornav': AMENT_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/ros2_ws/build/vectornav
+[71.865s] -- Install configuration: ""
+[71.865s] -- Installing: /home/ros2_ws/install/vectornav/lib/vectornav/vectornav
+[71.875s] -- Set runtime path of "/home/ros2_ws/install/vectornav/lib/vectornav/vectornav" to ""
+[71.876s] -- Installing: /home/ros2_ws/install/vectornav/lib/vectornav/vn_sensor_msgs
+[71.904s] -- Set runtime path of "/home/ros2_ws/install/vectornav/lib/vectornav/vn_sensor_msgs" to ""
+[71.904s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav//config
+[71.904s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav//config/vn_100_800hz.yaml
+[71.905s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav//config/vectornav.yaml
+[71.905s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav//launch
+[71.905s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav//launch/vectornav.launch.py
+[71.906s] -- Installing: /home/ros2_ws/install/vectornav/share/ament_index/resource_index/package_run_dependencies/vectornav
+[71.906s] -- Installing: /home/ros2_ws/install/vectornav/share/ament_index/resource_index/parent_prefix_path/vectornav
+[71.907s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.sh
+[71.907s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/ament_prefix_path.dsv
+[71.907s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/path.sh
+[71.907s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/environment/path.dsv
+[71.908s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.bash
+[71.908s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.sh
+[71.908s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.zsh
+[71.909s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/local_setup.dsv
+[71.909s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/package.dsv
+[71.909s] -- Installing: /home/ros2_ws/install/vectornav/share/ament_index/resource_index/packages/vectornav
+[71.909s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/cmake/ament_cmake_export_dependencies-extras.cmake
+[71.910s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/cmake/vectornavConfig.cmake
+[71.910s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/cmake/vectornavConfig-version.cmake
+[71.910s] -- Installing: /home/ros2_ws/install/vectornav/share/vectornav/package.xml
+[71.911s] -- Installing: /home/ros2_ws/install/vectornav/lib/libvncxx.so
+[71.913s] -- Installing: /home/ros2_ws/install/vectornav/include/vn
+[71.913s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/compositedata.h
+[71.913s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/types.h
+[71.914s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/conversions.h
+[71.914s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/serialport.h
+[71.914s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/vntime.h
+[71.914s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/dllvalidator.h
+[71.915s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/export.h
+[71.915s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/packet.h
+[71.915s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/sensors.h
+[71.915s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/memoryport.h
+[71.916s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/position.h
+[71.916s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/int.h
+[71.916s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/signal.h
+[71.916s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/thread.h
+[71.917s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/utilities.h
+[71.917s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/util.h
+[71.917s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/mock.h
+[71.917s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/registers.h
+[71.918s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/boostpython.h
+[71.918s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/compiler.h
+[71.918s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/vector.h
+[71.918s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/criticalsection.h
+[71.919s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/nocopy.h
+[71.919s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/error_detection.h
+[71.919s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/packetfinder.h
+[71.919s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/consts.h
+[71.919s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/rtcmmessage.h
+[71.920s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/ezasyncdata.h
+[71.920s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/rtcmlistener.h
+[71.920s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/searcher.h
+[71.920s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/attitude.h
+[71.920s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/event.h
+[71.921s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/exceptions.h
+[71.921s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/port.h
+[71.921s] -- Installing: /home/ros2_ws/install/vectornav/include/vn/matrix.h
+[71.943s] Invoked command in '/home/ros2_ws/build/vectornav' returned '0': AMENT_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2_ws/install/vectornav_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ros2_ws/install/vectornav_msgs/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64 PYTHONPATH=/home/ros2_ws/install/vectornav_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/ros2_ws/build/vectornav

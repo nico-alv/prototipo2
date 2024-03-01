@@ -1,0 +1,21 @@
+2023-12-18 19:27:48.972 [info] 
+
+
+
+
+2023-12-18 19:27:48.990 [info] Extension host agent started.
+2023-12-18 19:27:49.274 [error] [127.0.0.1][59a9f9cb][ManagementConnection] Unknown reconnection token (never seen).
+2023-12-18 19:27:49.324 [error] [127.0.0.1][1bcca40a][ExtensionHostConnection] Unknown reconnection token (never seen).
+2023-12-18 19:28:30.606 [info] [127.0.0.1][47d2962f][ManagementConnection] New connection established.
+2023-12-18 19:28:30.757 [info] [127.0.0.1][7603b1ca][ExtensionHostConnection] New connection established.
+2023-12-18 19:28:30.930 [info] [127.0.0.1][7603b1ca][ExtensionHostConnection] <3007> Launched Extension Host Process.
+2023-12-18 19:33:23.306 [info] New EH opened, aborting shutdown
+2023-12-18 20:25:56.998 [info] [127.0.0.1][47d2962f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-18 23:11:25.047 [info] [127.0.0.1][49bd6c8c][ManagementConnection] New connection established.
+2023-12-18 23:11:26.284 [info] [127.0.0.1][40f8cb0c][ExtensionHostConnection] New connection established.
+2023-12-18 23:11:26.299 [info] [127.0.0.1][40f8cb0c][ExtensionHostConnection] <42473> Launched Extension Host Process.
+2023-12-18 23:16:25.333 [info] [127.0.0.1][7603b1ca][ExtensionHostConnection] <3007> Extension Host Process exited with code: 0, signal: null.
+2023-12-18 23:49:16.556 [info] [127.0.0.1][49bd6c8c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-18 23:49:16.590 [info] [127.0.0.1][40f8cb0c][ExtensionHostConnection] <42473> Extension Host Process exited with code: 0, signal: null.
+2023-12-18 23:49:16.590 [info] Last EH closed, waiting before shutting down
+2023-12-18 23:54:16.592 [info] Last EH closed, shutting down

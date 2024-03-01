@@ -1,0 +1,12 @@
+2023-12-28 10:12:57.997 [info] 
+
+
+
+
+2023-12-28 10:12:58.015 [info] Extension host agent started.
+2023-12-28 10:12:58.990 [info] [127.0.0.1][ea0cb5e3][ManagementConnection] New connection established.
+2023-12-28 10:12:59.052 [info] [127.0.0.1][b52aac6f][ExtensionHostConnection] New connection established.
+2023-12-28 10:12:59.255 [info] [127.0.0.1][b52aac6f][ExtensionHostConnection] <2998> Launched Extension Host Process.
+2023-12-28 10:17:58.017 [info] New EH opened, aborting shutdown
+2023-12-28 11:18:33.488 [info] [127.0.0.1][ea0cb5e3][ManagementConnection] The client has reconnected.
+2023-12-28 11:18:33.610 [info] [127.0.0.1][b52aac6f][ExtensionHostConnection] The client has reconnected.

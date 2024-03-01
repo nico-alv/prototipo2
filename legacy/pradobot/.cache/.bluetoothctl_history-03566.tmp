@@ -1,0 +1,9 @@
+help
+exit
+show B4:8C:9D:1C:5E:A0
+bluetoothctl power on
+power on
+list
+scan on
+scan off
+devices

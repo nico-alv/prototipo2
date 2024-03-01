@@ -1,0 +1,1 @@
+Invoking command in '/home/ros2_ws/build/vectornav_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2_ws/install/pradobot_ultrasonic /usr/local/bin/cmake --build /home/ros2_ws/build/vectornav_msgs -- -j6 -l6
