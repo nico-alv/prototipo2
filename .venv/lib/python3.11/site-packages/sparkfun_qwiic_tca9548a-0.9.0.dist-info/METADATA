@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sparkfun-qwiic-tca9548a
+Version: 0.9.0
+Summary: SparkFun Electronics Qwiic TCA9548A
+Home-page: https://www.sparkfun.com/products/14685
+Author: SparkFun Electronics
+Author-email: info@sparkfun.com
+License: MIT
+Keywords: electronics,maker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: sparkfun-qwiic-i2c
+
+SparkFun Qwiic Mux - 8 Channel (TCA9548A)
+=============================================
+
+This package provdes support for the SparkFun Qwiic Mux (TCA9548A) breakout.
+
+
