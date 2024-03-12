@@ -20,8 +20,7 @@ DPAD_VERTICAL = 7
 L_BTN = 6
 R_BTN = 8
 
-ser = serial.Serial("/dev/ttySH0", 115200, rtscts=True)
-
+ser = serial.Serial("/dev/ttyUSB0", 115200, rtscts=True)
 
 class ControlNode(Node):
     active_mode, high_speed_mode = False, False
@@ -35,6 +34,7 @@ class ControlNode(Node):
         self.get_logger().info("Control node initialized.")
 
     def listener_callback(self, msg):
+        print(msg)
         if msg.axes[L_TRIGGER] != 1:
             if not self.active_mode:
                 self.active_mode = True
@@ -49,13 +49,15 @@ class ControlNode(Node):
         high_speed = int(self.high_speed_mode)
 
         control_message = f"{movement_x},{movement_y},{high_speed}\n".encode("utf-8")
+        print(control_message)
         ser.write(control_message)
 
-    def main(args=None):
-        rclpy.init(args=args)
-        node = ControlNode()
-        rclpy.spin(node)
-        rclpy.shutdown()
+def main(args=None):
+    rclpy.init(args=args)
+    node = ControlNode()
+    rclpy.spin(node)
+    rclpy.shutdown()
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
+

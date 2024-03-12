@@ -12,8 +12,9 @@ const int expectedDataSize = 3;
 const int bufferSize = 64;
 char inputBuffer[bufferSize];
 
-//Pin mapping
-const int pins[] = {8,9,10,11};
+//Pin mappinga
+//		   LU,LD,RU,RD 
+const int pins[] = {11,9,10,5};
 const int forwardFactor[] = {1,1,-1,-1};
 const int directions[] = {1,-1,-1,1};
 
@@ -31,32 +32,33 @@ float normalized_axes[2];
 unsigned long last_millis = 0;
 const unsigned int encoder_rate_us = 100;
 const float encoder_to_rpm_factor = (1/(encoder_rate_us*0.000001)) *  60;
+/*
 Encoders encoder0(A14 , A15);
 Encoders encoder1(A12 , A13);
 Encoders encoder2(A10 , A11);
 Encoders encoder3(A8 , A9);
 int encoderCounts[4];
-
+*/
 void setup() {
   for (int i = 0; i < 4; i++) {
       motors[i].attach(pins[i]);  
   }
   // put your setup code here, to run once:
   Serial.begin(115200);
-  Serial1.begin(115200);
   // Set up Timer1 with a period of 1000000 microseconds (1 second)
-  Timer1.initialize(10000);
+//  Timer1.initialize(10000);
 
   // // Attach the blink function to the timer interrupt
-  Timer1.attachInterrupt(EncoderCallback);
+//  Timer1.attachInterrupt(EncoderCallback);
 
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
- if (Serial1.available() > 0) {
+ if (Serial.available() > 0) {
+    Serial.println("here");
     int dataCount = 0;
-    int bytesRead = Serial1.readBytesUntil('\n', inputBuffer, bufferSize - 1);
+    int bytesRead = Serial.readBytesUntil('\n', inputBuffer, bufferSize - 1);
     // Null-terminate the string
     inputBuffer[bytesRead] = '\0';
     char* command = strtok(inputBuffer, ",");
@@ -68,18 +70,20 @@ void loop() {
         command = strtok(0, ",");
         dataCount++;
     }
-    // Serial.println(serialCommands[0]);
-    // Serial.println(serialCommands[1]);
-    // Serial.println(serialCommands[2]);
-    // Serial.println("---------");
+     Serial.println(serialCommands[0]);
+     Serial.println(serialCommands[1]);
+     Serial.println(serialCommands[2]);
+     Serial.println("---------");
 
     if(dataCount != expectedDataSize) return;
   }
   MotorControl();
+/*
   encoderCounts[0] = encoder0.getEncoderCount();
   encoderCounts[1] = encoder1.getEncoderCount();
   encoderCounts[2] = encoder2.getEncoderCount();
   encoderCounts[3] = encoder3.getEncoderCount();
+*/
 }
 
 void MotorControl(){
@@ -98,7 +102,7 @@ void MotorControl(){
     // Serial.print(speedR);
     // Serial.println();
 }
-
+/*
 void EncoderCallback(){
     Serial.println(encoder0.getEncoderCount());
     Serial.print(" ");
@@ -110,7 +114,7 @@ void EncoderCallback(){
     Serial.println();
 }
 
-
+*/
 
 void NormalizeAxes(float x, float y){
   float mag =x*x + y*y;
