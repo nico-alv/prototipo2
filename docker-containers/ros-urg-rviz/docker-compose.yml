@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  ros2_robot:
+    image: ros2-humble-urg:latest
+    container_name: robot2
+    privileged: true
+    volumes:
+      - /home/nico/ros_nodes:/workspace
+    devices:
+      - /dev/ttyACM0:/dev/ttyACM0
+      - /dev/input/js0:/dev/input/js0
+    networks:
+      - ros_network
+
+networks:
+  ros_network:
+    driver: bridge
+
