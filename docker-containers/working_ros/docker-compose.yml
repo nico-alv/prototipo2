@@ -1,0 +1,19 @@
+version: "0.1"
+services:
+  robot2:
+    image: ros-urg-rviz-kn01-fix
+    container_name: robot2
+    privileged: true
+    network_mode: host
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /home/nico/ros_nodes:/home/nico/ros_nodes
+    devices:
+      - /dev/input/js0
+      - /dev/ttyACM0
+    environment:
+      - DISPLAY=${DISPLAY}
+    ports:
+      - "5901:5901"
+      - "6080:6080"
+      - "8888:8888"

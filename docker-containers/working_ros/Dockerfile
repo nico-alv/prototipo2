@@ -1,6 +1,7 @@
+
 FROM kristoferb/spweb_ros2
 
-RUN apt-get update && apt update && apt-get install -y \
+RUN apt-get update && apt-get install -y \
     git \
     ros-humble-diagnostic-updater \
     ros-humble-laser-proc \
@@ -16,30 +17,22 @@ RUN apt-get update && apt update && apt-get install -y \
 
 WORKDIR /workspace
 RUN git clone -b ros2-devel https://github.com/ros-drivers/urg_node.git src/urg_node
-RUN git clone https://github.com/dawonn/vectornav.git -b ros2 src/vectornav
-RUN git clone https://github.com/fadlio/kinect_ros2 src/kinect_ros2
 
-RUN apt-get update && apt-get install -y \
-    ros-humble-joy \
-    ros-humble-depth-image-proc \
-    && rm -rf /var/lib/apt/lists/*
-
-RUN rosdep update && rosdep install -y \
-    --from-paths src \
+RUN apt-get update && rosdep update && rosdep install -y \
+    --from-paths src/urg_node \
     --ignore-src \
+    && apt-get install -y ros-humble-joy \
     && rm -rf /var/lib/apt/lists/*
 
 RUN . /opt/ros/humble/setup.sh && \
-    colcon build
+    colcon build --packages-select urg_node
 
-# Configura el entorno
+RUN git clone https://github.com/fadlio/kinect_ros2.git src/kinect_ros2
+
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo "source /workspace/install/setup.bash" >> ~/.bashrc
 
-# Define el directorio de trabajo
-ENV ROS_WS=/workspace
-
-# Configura el punto de entrada y el comando predeterminado
 ENTRYPOINT ["/bin/bash"]
 CMD []
 
+ENV ROS_WS=/workspace
