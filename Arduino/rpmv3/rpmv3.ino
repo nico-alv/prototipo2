@@ -14,8 +14,8 @@ int meas_done[] = {0, 0, 0, 0};
 
 #define ENC_N 36;
 int rpm[] = {0, 0, 0, 0};
-int enc_pin_a = {2, 0, 0, 0};
-int enc_pin_b = {3, 0, 0, 0};
+int enc_pin_a = {2, 4, 7, 12};
+int enc_pin_b = {3, 6, 8, 13};
 int err[] = {0, 0, 0, 0};
 int prev_err[] = {0, 0, 0, 0};
 int microseconds[] = {0, 0, 0, 0};
